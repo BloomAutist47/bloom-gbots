@@ -1,0 +1,55 @@
+-------------------------------------------------------------------------------------------------------------------
+WEEB's ULTIMATE NSoD BOT
+Gets you all the materials for the Necrotic Sword of Doom.
+-------------------------------------------------------------------------------------------------------------------
+
+You will need the Grimoire 3.8+ PRO v1.7.7. application to run this bot, which can be found on our portal website,
+https://skidson.club/
+
+-------------------------------------------------------------------------------------------------------------------
+
+Requirements:
+1) 1 Point in Evil Rep (Bot farms up to Rank 10 Evil if you have at least 1 Point, for Retrieve the Void Auras)
+   (Ignore this if you have Sepulchure's DoomKnight Armor).
+2) 1 Point in Doomwood Rep (Bot farms up to Rank 10 Doomwood if you have at least one point, then uses it to buy
+   Necromancer).
+
+-------------------------------------------------------------------------------------------------------------------
+
+Notes: 
+1) This bot will farm Void Auras with Commanding Shadow Essences if you have Sepulchure's DoomKnight Armor.
+   Otherwise, Retrieve the Void Auras will be used. Farms 100 of each essence before turning in the Retrieve the 
+   Void Aura quest in bulk for maximum efficiency, disturbing the bot will cause it not farm up to 100 if it has
+   20 already.
+2) Buys Felicitous Philtre (Endurance Draught if you use EDoT) before killing bosses and Potion of Evasion before
+   killing Colossal Primarch to guarantee consistency.
+3) Farms and ranks up Necromancer for you. It will provoke the monsters in the Level 75+ room for maximum speed,
+   but will kill monsters in the low level rooms with its heal so you don't die. The Class Point Bar may look like
+   it's not being filled up due to the usage of packets, however, you can log out at any time to see its progress
+   while it's doing that just to be reassured.
+4) Farms your daily Barium if you have less than 4. Make sure to just log out of the game anytime after 12 PM,
+   Server Time, to unlock the Hard Core Metals quest again.
+5) Farms Cavern Celestites using Soul Searching if you have access to that, otherwise just kills the Crystallized
+   Jellyfish. If Soul Searching is used, Undead Essences are turned in for Doomwood Reputation.
+6) Farms the Dragonoid of Hours before killing Chaos Lord Iadoa for you, if you don't already have it.
+7) This bot will NOT merge NSoD for you. The Barium requirement causes too many complications and causes it to
+   break. I've tried several times using check labels and whatnot but it's just not safe. Do it yourself once the 
+   bot gets all the items for you. 
+8) A follower alt (or multiple) to help you farm is highly recommended. There is a follower bot template on the 
+   portal site https://skidson.club/
+9) Double Click the "Set Private Rooms: 1" command and change 1 to 2 if you want the bot to go to a private 
+   /shadowrealm room (chooses a random private room).
+
+------------------------------------------------------------------------------------------------------------------
+
+Changing Class and Skills:
+This bot can use up to 4 classes of your choice. To change your class, download "Bluu_Skillsets_pro" from the
+portal website and read the instructions present in it to change them.
+There are 5 types of classes used: 
+
+1) Farming Class: Your generic farming class.
+2) Low HP Soloing Class: Used for all monsters with less than 400k health.
+3) High HP Soloing Class: Used for Epic Vordred (greater than 400k health).
+4) Defensive Soloing Class: Used for Colossal Primarch (very high base damage).
+
+------------------------------------------------------------------------------------------------------------------
