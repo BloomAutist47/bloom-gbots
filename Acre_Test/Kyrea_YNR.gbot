@@ -560,7 +560,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Is Public",
-        "Value": 999
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -3889,19 +3889,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "judgement-1e99",
-        "Cell": "r10a",
+        "Cell": "r10",
         "Pad": "Right"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r10a",
+        "Value1": "r10",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r10a",
+        "Cell": "r10",
         "Pad": "Right"
       },
       {
@@ -4599,7 +4599,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7410
+          "QuestID": 7410,
+          "IsInProgress": true
         }
       },
       {
@@ -5057,7 +5058,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%cmd%1%tfer%PLAYERNAME%dagepvp-100000%"
+        "Packet": "%xt%zm%cmd%1%tfer%kyrea%dagepvp-100000%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
@@ -6005,7 +6006,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "judgement",
-        "Cell": "r10a",
+        "Cell": "r10",
         "Pad": "Right"
       },
       {
@@ -6018,19 +6019,19 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "judgement-1e99",
-        "Cell": "r10a",
+        "Cell": "r10",
         "Pad": "Right"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r10a",
+        "Value1": "r10",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r10a",
+        "Cell": "r10",
         "Pad": "Right"
       },
       {
@@ -10134,7 +10135,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Artix",
-    "iPort": 56526
+    "iPort": 36336
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
