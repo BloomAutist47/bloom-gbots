@@ -437,7 +437,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Section"
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Complete"
@@ -1266,7 +1265,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -1417,7 +1415,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -1564,7 +1561,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -1699,7 +1695,6 @@
         "Int": "Class Equip",
         "Value": 2
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -1914,7 +1909,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -2427,7 +2421,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -2574,7 +2567,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -2725,7 +2717,6 @@
         "Int": "Class Equip",
         "Value": 2
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -2914,7 +2905,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -3061,7 +3051,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -3216,7 +3205,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -3363,7 +3351,6 @@
         "Int": "Class Equip",
         "Value": 2
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -3552,7 +3539,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -3699,7 +3685,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -3846,7 +3831,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -3997,7 +3981,6 @@
         "Int": "Class Equip",
         "Value": 2
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -4369,7 +4352,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -4516,7 +4498,6 @@
         "Int": "Class Equip",
         "Value": 1
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -4663,7 +4644,6 @@
         "Int": "Class Equip",
         "Value": 2
       },
-
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
@@ -4938,6 +4918,8 @@
   "BotDelay": 500,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "LagKiller": true,
+  "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
