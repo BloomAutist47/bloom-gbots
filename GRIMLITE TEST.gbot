@@ -1,0 +1,155 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 0,
+        "Int": "Test 1",
+        "Value": 0
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 0,
+        "Int": "Test 2",
+        "Value": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntNotEqualInt, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not equal to Int",
+        "Value1": "Test 1",
+        "Value2": "Test 2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "jump 1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "jump 2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "jump 1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "revenant",
+        "Room": "1e99",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 0,
+        "Int": "Test 2",
+        "Value": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "jump 2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "type": 0,
+        "Int": "Test 2",
+        "Value": 0
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "yulgar",
+        "Room": "9993",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "start"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Author": "Author",
+  "Description": "Description (Write in RTF)",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 33137
+  },
+  "SkillDelay": 0,
+  "ExitCombatBeforeRest": true,
+  "ExitCombatBeforeQuest": false,
+  "EnablePickup": true,
+  "EnableRejection": true,
+  "EnablePickupAll": false,
+  "EnablePickupAcTagged": false,
+  "EnableRejectAll": false,
+  "AutoRelogin": false,
+  "RelogDelay": 5000,
+  "RelogRetryUponFailure": false,
+  "BotDelay": 1000,
+  "WaitForAllSkills": false,
+  "WaitForSkill": false,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": false,
+  "ProvokeMonsters": false,
+  "Untarget": false,
+  "EnemyMagnet": false,
+  "LagKiller": false,
+  "HidePlayers": false,
+  "SkipCutscenes": false,
+  "DisableAnimations": false,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestIfMp": false,
+  "RestIfHp": false,
+  "RestMp": 20,
+  "RestHp": 20,
+  "RestartUponDeath": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "Packet": false,
+  "BankOnStop": false,
+  "EnsureComplete": false,
+  "EnsureTries": 20,
+  "AFK": false,
+  "DropDelay": 1000
+}

@@ -21,6 +21,10 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[53,101,22]Beta Release"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[53,101,222]ULTIMATE"
       },
       {
