@@ -366,13 +366,7 @@
   },
   "Quests": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
-    "$values": [
-      {
-        "$type": "Grimoire.Game.Data.Quest, Grimoire",
-        "QuestID": 4667,
-        "Text": "4667"
-      }
-    ]
+    "$values": []
   },
   "Author": "Author",
   "Description": "Description (Write in RTF)",

@@ -517,7 +517,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%33888%4799%4800%4801%4802%4803%4804%4805%4806%4807%4808%4809%4810%803%"
+        "Packet": "%xt%zm%getQuests%33888%4799%4800%4801%4802%4803%4804%4805%4806%4807%4808%4809%4810%803%820%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -5570,8 +5570,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4667,
-          "IsInProgress": true
+          "QuestID": 4667
         }
       },
       {
@@ -5658,6 +5657,10 @@
         "Value": 2
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not in progress",
@@ -5670,6 +5673,10 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 4668
         }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -11300,13 +11307,12 @@
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 4667,
-        "Text": "4667",
-        "IsInProgress": true
+        "Text": "4667"
       }
     ]
   },
   "Author": "Author",
-  "Description": "Description",
+  "Description": "Description (Write in RTF)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -11327,11 +11333,6 @@
       "Lapis Token III",
       "Sparrow's Blood"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 52382
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,

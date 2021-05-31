@@ -513,11 +513,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%30373%4619%4620%4621%4622%4623%4624%4625%4626%4627%4659%4660%4661%4662%4663%4664%4665%4666%4667%4668%4692%4693%4694%4695%4696%4697%4698%4699%4700%"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%33888%4799%4800%4801%4802%4803%4804%4805%4806%4807%4808%4809%4810%803%"
+        "Packet": "%xt%zm%getQuests%30373%4619%4620%4621%4622%4623%4624%4625%4626%4627%4659%4660%4661%4662%4663%4664%4665%4666%4667%4668%4692%4693%4694%4695%4696%4697%4698%4699%4700%820%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -4937,7 +4933,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Rank 10 Smyess - Check"
+        "Label": "4667 - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -5022,6 +5018,11 @@
       "Sparrow's Blood"
     ]
   },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 62536
+  },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
   "AutoRelogin": true,
@@ -5029,7 +5030,6 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,
-  "LagKiller": true,
   "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
