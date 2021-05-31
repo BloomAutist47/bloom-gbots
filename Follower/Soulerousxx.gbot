@@ -25,7 +25,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Player",
-        "Value2": "Kyrea"
+        "Value2": "Soulerousxx"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -81,7 +81,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerInRoom, Grimoire",
         "Tag": "Player",
         "Text": "Player is in room",
-        "Value1": "Kyrea",
+        "Value1": "Soulerousxx",
         "Value2": ""
       },
       {
@@ -92,18 +92,18 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerNotInRoom, Grimoire",
         "Tag": "Player",
         "Text": "Player is not in room",
-        "Value1": "Kyrea",
+        "Value1": "Soulerousxx",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%cmd%1%goto%Kyrea%"
+        "Packet": "%xt%zm%cmd%1%goto%Soulerousxx%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerNotInRoom, Grimoire",
         "Tag": "Player",
         "Text": "Player is not in room",
-        "Value1": "Kyrea",
+        "Value1": "Soulerousxx",
         "Value2": ""
       },
       {

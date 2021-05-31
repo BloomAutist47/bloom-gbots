@@ -1492,15 +1492,11 @@
         "Name": "start"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLog, Grimoire",
-        "Text": "RESTARTED NIGHTSCHTICK"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdChange, Grimoire",
-        "Text": "BOT BY WEEB-BLUU-ARTS-BLOOM"
+        "Text": "BOT BY WEEB | BLUU | ARTS | BLOOM"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdChange, Grimoire",
@@ -1611,10 +1607,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Use Frostval Barbarian"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%86312%4743%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -3743,7 +3735,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Boost",
-        "Value": 2
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3848,8 +3840,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 364,
-          "IsInProgress": true
+          "QuestID": 364
         }
       },
       {
@@ -4027,8 +4018,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897,
-          "IsInProgress": true
+          "QuestID": 6897
         }
       },
       {
@@ -4232,8 +4222,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897,
-          "IsInProgress": true
+          "QuestID": 6897
         }
       },
       {
@@ -4542,7 +4531,7 @@
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Potion Equip",
-        "Value2": "Felicitous Philtre"
+        "Value2": "Endurance Draught"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -4556,7 +4545,7 @@
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Potion Equip",
-        "Value2": "Endurance Draught"
+        "Value2": "Felicitous Philtre"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotEquipped, Grimoire",
@@ -4657,17 +4646,6 @@
         "Pad": "Left"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Aeacus Empowered",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Aeacus Empowered"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
@@ -4677,6 +4655,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 666
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Aeacus Empowered",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Aeacus Empowered"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -5416,8 +5405,24 @@
         "Value2": "1"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Use Potions by Default",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Potion of Evasion"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
@@ -5431,15 +5436,8 @@
         "ItemName": "Tethered Soul"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Tethered Soul",
-        "Value2": "303"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 666
+        "Delay": 500
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -5578,17 +5576,6 @@
         "Type": 1
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Darkened Essence",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Darkened Essence"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
@@ -5598,6 +5585,17 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 666
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Darkened Essence",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Darkened Essence"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -5736,6 +5734,17 @@
         "Type": 1
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
+        "Value1": "Dracolich Contract",
+        "Value2": "1000"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 666
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
         "Tag": "Item",
         "Text": "Has dropped",
@@ -5754,55 +5763,12 @@
         "Value2": "1000"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 666
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Dracolich Contract",
-        "Value2": "1000"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "LF1 - m"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -5871,8 +5837,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6898,
-          "IsInProgress": true
+          "QuestID": 6898
         }
       },
       {
@@ -6222,8 +6187,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6898,
-          "IsInProgress": true
+          "QuestID": 6898
         }
       },
       {
@@ -9030,6 +8994,17 @@
         "Value2": ""
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 666
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Legion Seal",
+        "Value2": ""
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
         "ItemName": "Legion Seal"
       },
@@ -9042,7 +9017,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
+        "Delay": 666
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
@@ -9054,17 +9029,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
         "ItemName": "Gem of Mastery"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest can not be turned in",
-        "Value1": "4742",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 666
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
@@ -9175,6 +9139,10 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "LF3 - Diamond Token of Dage"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%getQuests%86312%4743%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -10129,8 +10097,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6248,
-          "IsInProgress": true
+          "QuestID": 6248
         }
       },
       {
@@ -10148,8 +10115,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6249,
-          "IsInProgress": true
+          "QuestID": 6249
         }
       },
       {
@@ -10382,20 +10348,17 @@
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 364,
-        "Text": "364",
-        "IsInProgress": true
+        "Text": "364"
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 6248,
-        "Text": "6248",
-        "IsInProgress": true
+        "Text": "6248"
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 6249,
-        "Text": "6249",
-        "IsInProgress": true
+        "Text": "6249"
       }
     ]
   },
@@ -10465,11 +10428,6 @@
       "Legion Seal",
       "Gem of Mastery"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Yorumi",
-    "iPort": 27496
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,

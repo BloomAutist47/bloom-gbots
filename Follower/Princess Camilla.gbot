@@ -10,22 +10,135 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdChange, Grimoire",
         "Guild": true,
-        "Text": "Robo Army"
+        "Text": "Gods of War"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Player",
+        "Value2": "Princess Camilla"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "KILL"
+        "Name": "Check Player"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerIsNotInMyCell, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is not in my cell",
+        "Value1": "[Player]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Teleport"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Monster"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Teleport"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Kaos"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerInRoom, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is in room",
+        "Value1": "Princess Camilla",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoPlayer, Grimoire",
+        "PlayerName": "[Player]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerNotInRoom, Grimoire",
         "Tag": "Player",
         "Text": "Player is not in room",
-        "Value1": "princess cammila",
+        "Value1": "Princess Camilla",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%cmd%1%goto%Princess Camilla%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerNotInRoom, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is not in room",
+        "Value1": "Princess Camilla",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1000
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check Player"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Monster"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterNotInRoom, Grimoire",
+        "Tag": "Monster",
+        "Text": "Is not in room",
+        "Value1": "*",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "GOTO"
+        "Label": "Check Player"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerIsNotInMyCell, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is not in my cell",
+        "Value1": "[Player]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check Player"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
@@ -47,7 +160,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "3: Creampie",
+        "Skill": "3: Illuminate",
         "Index": "3",
         "SafeHp": 100,
         "SafeMp": 100
@@ -61,8 +174,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "2: Creampie",
-        "Index": "2",
+        "Skill": "4: Burned by Light",
+        "Index": "4",
         "SafeHp": 100,
         "SafeMp": 100
       },
@@ -75,7 +188,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "1: Blowjob",
+        "Skill": "1: Lingering Light",
         "Index": "1",
         "SafeHp": 100,
         "SafeMp": 100
@@ -89,137 +202,42 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
-        "Skill": "4: Creampie",
-        "Index": "4",
+        "Skill": "2: Light Blast",
+        "Index": "2",
         "SafeHp": 100,
         "SafeMp": 100
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMonsterInRoom, Grimoire",
-        "Tag": "Monster",
-        "Text": "Is in room",
-        "Value1": "*",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 2,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerNotInRoom, Grimoire",
-        "Tag": "Player",
-        "Text": "Player is not in room",
-        "Value1": "princess cammila",
-        "Value2": ""
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "GOTO"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInCombat, Grimoire",
-        "Tag": "This player",
-        "Text": "Not in combat",
-        "Value1": "",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoPlayer, Grimoire",
-        "PlayerName": "princess cammila"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "KILL"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "GOTO"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%cmd%1%goto%princess cammila%"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerNotInRoom, Grimoire",
-        "Tag": "Player",
-        "Text": "Player is not in room",
-        "Value1": "princess cammila",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1000
+        "Label": "Monster"
       }
     ]
   },
   "Skills": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
-    "$values": [
-      {
-        "$type": "Grimoire.Game.Data.Skill, Grimoire",
-        "Text": "3: Illuminate",
-        "Index": "3"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Skill, Grimoire",
-        "Text": "4: Burned by Light",
-        "Index": "4"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Skill, Grimoire",
-        "Text": "1: Lingering Light",
-        "Index": "1"
-      },
-      {
-        "$type": "Grimoire.Game.Data.Skill, Grimoire",
-        "Text": "2: Light Blast",
-        "Index": "2"
-      }
-    ]
+    "$values": []
   },
   "Quests": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description",
+  "Description": "Description (Write in RTF)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
   },
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
-    "$values": [
-      "Dark Infernal's Half-blade",
-      "Dark Void Paladin Katana",
-      "Dark Void Paladin Katanas",
-      "Digital Phoenix Blade",
-      "Dual Hollowborn Pistols",
-      "Hollowborn Blade",
-      "Hollowborn Spear",
-      "Hollowborn Pistol",
-      "Svelgr Fang",
-      "Dragon Fiend Gem",
-      "Glacial Bones",
-      "Screamfeeder Heart",
-      "Fiend Token",
-      "Wheel of Bacon Token"
-    ]
+    "$values": []
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Gravelyn",
-    "iPort": 28366
+    "iPort": 33756
   },
-  "SkillDelay": 100,
+  "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
-  "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "EnableRejection": true,
   "AutoRelogin": true,
@@ -227,8 +245,9 @@
   "RelogRetryUponFailure": true,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "EnemyMagnet": true,
+  "LagKiller": true,
   "HidePlayers": true,
-  "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
