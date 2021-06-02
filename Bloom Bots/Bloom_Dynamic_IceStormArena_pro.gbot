@@ -1207,14 +1207,6 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
-        "ItemName": "Shop Item"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%cmd%1%tfer%PLAYERNAME%MAP-1e99%"
       }
     ]
   },
@@ -1253,7 +1245,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Yorumi",
-    "iPort": 37876
+    "iPort": 56667
   },
   "SkillDelay": 9000,
   "ExitCombatBeforeRest": true,
@@ -1265,7 +1257,6 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,
-  "LagKiller": true,
   "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
@@ -1273,7 +1264,6 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "RestIfHp": true,
   "RestMp": 60,
   "RestHp": 20,
   "RestartUponDeath": true,

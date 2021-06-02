@@ -134,6 +134,13 @@
         "SafeMp": 100
       },
       {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "5: Potions",
+        "Index": "5",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "type": 1,
         "Int": "Skill Rotation Counter"
@@ -147,7 +154,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 7
+        "Index": 8
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -1036,7 +1043,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "KILL BTERROR"
+        "Label": "BLUUSMYESS"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
@@ -3163,8 +3170,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4439,
-          "IsInProgress": true
+          "QuestID": 4439
         }
       },
       {
@@ -3436,8 +3442,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4439,
-          "IsInProgress": true
+          "QuestID": 4439
         }
       },
       {
@@ -3965,7 +3970,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 939
+          "QuestID": 939,
+          "IsInProgress": true
         }
       },
       {
@@ -4107,6 +4113,18 @@
         "Delay": 666
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SOLO SKILL"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "BLUUSMYESS"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
         "Tag": "Item",
         "Text": "Is not in temp",
@@ -4114,8 +4132,7 @@
         "Value2": "1"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "SOLO SKILL"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLogout, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -4354,7 +4371,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 939
+          "QuestID": 939,
+          "IsInProgress": true
         }
       },
       {
@@ -4531,8 +4549,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2082,
-          "IsInProgress": true
+          "QuestID": 2082
         }
       },
       {
@@ -6930,14 +6947,12 @@
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 2082,
-        "Text": "2082",
-        "IsInProgress": true
+        "Text": "2082"
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 236,
-        "Text": "236",
-        "IsInProgress": true
+        "Text": "236"
       }
     ]
   },
@@ -6973,8 +6988,8 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Yorumi",
-    "iPort": 32902
+    "sName": "Sepulchure",
+    "iPort": 2741
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
@@ -6987,7 +7002,6 @@
   "InfiniteAttackRange": true,
   "Untarget": true,
   "LagKiller": true,
-  "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {

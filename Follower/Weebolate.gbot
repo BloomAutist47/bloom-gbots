@@ -73,18 +73,19 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Yulgar Safespot"
+        "Int": "Use Yulgar Safespot",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Player",
-        "Value2": "<INSERT PLAYER HERE>"
+        "Value2": "weebolate"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%cmd%1%goto%<INSERT PLAYER HERE>%"
+        "Packet": "%xt%zm%cmd%1%goto%weebolate%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -390,6 +391,11 @@
       "Lapis Token III",
       "Sparrow's Blood"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Gravelyn",
+    "iPort": 34470
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,

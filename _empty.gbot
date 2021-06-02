@@ -2,12 +2,7 @@
   "$type": "Grimoire.Botting.Configuration, Grimoire",
   "Commands": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
-    "$values": [
-      {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "*"
-      }
-    ]
+    "$values": []
   },
   "Skills": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
@@ -18,7 +13,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description",
+  "Description": "Description (Write in RTF)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -30,10 +25,9 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Twilly",
-    "iPort": 27270
+    "iPort": 46056
   },
   "ExitCombatBeforeRest": true,
-  "ExitCombatBeforeQuest": true,
   "EnablePickup": true,
   "RelogDelay": 5000,
   "BotDelay": 1000,
@@ -43,8 +37,6 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "RestIfMp": true,
-  "RestIfHp": true,
   "RestMp": 20,
   "RestHp": 20,
   "RestartUponDeath": true,

@@ -1492,7 +1492,8 @@
         "Name": "start"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 10
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdChange, Grimoire",
@@ -1607,6 +1608,10 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Use Frostval Barbarian"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%getQuests%72528%364%4742%4743%4849%5755%5756%6248%6249%6897%6898%6899%6900%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -3840,7 +3845,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 364
+          "QuestID": 364,
+          "IsInProgress": true
         }
       },
       {
@@ -4018,7 +4024,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897
+          "QuestID": 6897,
+          "IsInProgress": true
         }
       },
       {
@@ -4222,7 +4229,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6897
+          "QuestID": 6897,
+          "IsInProgress": true
         }
       },
       {
@@ -10097,7 +10105,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6248
+          "QuestID": 6248,
+          "IsInProgress": true
         }
       },
       {
@@ -10115,7 +10124,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 6249
+          "QuestID": 6249,
+          "IsInProgress": true
         }
       },
       {
@@ -10348,17 +10358,20 @@
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 364,
-        "Text": "364"
+        "Text": "364",
+        "IsInProgress": true
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 6248,
-        "Text": "6248"
+        "Text": "6248",
+        "IsInProgress": true
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 6249,
-        "Text": "6249"
+        "Text": "6249",
+        "IsInProgress": true
       }
     ]
   },
@@ -10428,6 +10441,11 @@
       "Legion Seal",
       "Gem of Mastery"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 7045
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
