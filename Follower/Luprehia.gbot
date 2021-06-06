@@ -73,19 +73,18 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Yulgar Safespot",
-        "Value": 1
+        "Int": "Use Yulgar Safespot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Player",
-        "Value2": "<INSERT PLAYER HERE>"
+        "Value2": "luprehia"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%cmd%1%goto%<INSERT PLAYER HERE>%"
+        "Packet": "%xt%zm%cmd%1%goto%luprehia%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -315,6 +314,10 @@
         "PlayerName": "[Player]"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerIsInCell, Grimoire",
         "Tag": "Player",
         "Text": "Player is in cell",
@@ -323,7 +326,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": " ↓ Add Skills Here ↓ "
+        "Label": "Check Player"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
@@ -406,7 +409,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Twilly",
-    "iPort": 37226
+    "iPort": 31160
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
@@ -415,6 +418,7 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
