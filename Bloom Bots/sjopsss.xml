@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+<TreeView>
+  <n t="Chiral Valley Champion">
+    <n t="ID:        946" />
+    <n t="Location:  Menu" />
+    <n t="Items">
+      <n t="Phoenix Hunter">
+        <n t="Shop item ID: 16208" />
+        <n t="ID:        24296" />
+        <n t="Cost:      0 AC" />
+        <n t="Category:  Armor" />
+        <n t="Description: Going after Imps, Cyclops and Hydras are you? Well you'll need an armor suitable for the terrain." />
+        <n t="sFile:     PhoenixHunterV1.swf" />
+        <n t="sLink:     PhoenixHunterV1" />
+      </n>
+      <n t="Phoenix Bow">
+        <n t="Shop item ID: 16346" />
+        <n t="ID:        24309" />
+        <n t="Cost:      0 AC" />
+        <n t="Category:  Bow" />
+        <n t="Description: Might not be the fanciest bow but it'll take down Imps in one shot." />
+        <n t="sFile:     items/bows/PhoenixBowV1.swf" />
+        <n t="sLink:     PhoenixBowV1" />
+      </n>
+      <n t="Phoenix Hunter Quiver">
+        <n t="Shop item ID: 16343" />
+        <n t="ID:        24306" />
+        <n t="Cost:      0 AC" />
+        <n t="Category:  Cape" />
+        <n t="Description: A good archer's quiver is always ready." />
+        <n t="sFile:     items/capes/PhoenixHunterCapeV1.swf" />
+        <n t="sLink:     PhoenixHunterCapeV1" />
+      </n>
+      <n t="Phoenix Hunter Hair">
+        <n t="Shop item ID: 16349" />
+        <n t="ID:        24299" />
+        <n t="Cost:      0 AC" />
+        <n t="Category:  Helm" />
+        <n t="Description: Never out of place." />
+        <n t="sFile:     items/helms/HairPhoenixMaleV1.swf" />
+        <n t="sLink:     HairPhoenixMaleV1" />
+      </n>
+      <n t="Phoenix Hunter Locks">
+        <n t="Shop item ID: 16340" />
+        <n t="ID:        24303" />
+        <n t="Cost:      0 AC" />
+        <n t="Category:  Helm" />
+        <n t="Description: Never out of place." />
+        <n t="sFile:     items/helms/HairPhoenixFemaleV1.swf" />
+        <n t="sLink:     HairPhoenixFemaleV1" />
+      </n>
+    </n>
+  </n>
+  <n t="Mirror Realm Champion">
+    <n t="ID:        992" />
+    <n t="Location:  Menu" />
+    <n t="Items">
+      <n t="PaladinSlayer Daimyo">
+        <n t="Shop item ID: 16290" />
+        <n t="ID:        25743" />
+        <n t="Cost:      0 AC" />
+        <n t="Category:  Pet" />
+        <n t="Description: Wait, what?? Paladin SLAYER??  This mirror version of Daimyo fights for the undead.  Oh boy, here's hoping Artix doesn't see this." />
+        <n t="sFile:     items/pets/ArmoredMirrorDaimyoBattle.swf" />
+        <n t="sLink:     ArmoredMirrorDaimyoBattle" />
+      </n>
+      <n t="Battle PaladinSlayer Daimyo">
+        <n t="Shop item ID: 16350" />
+        <n t="ID:        25778" />
+        <n t="Cost:      0 AC" />
+        <n t="Category:  Pet" />
+        <n t="Description: Wait, what?? Paladin SLAYER??  This mirror version of Daimyo fights for the undead.  Oh boy, here's hoping Artix doesn't see this." />
+        <n t="sFile:     items/pets/ArmoredMirrorDaimyoBattle.swf" />
+        <n t="sLink:     ArmoredMirrorDaimyoBattle" />
+      </n>
+    </n>
+  </n>
+</TreeView>
