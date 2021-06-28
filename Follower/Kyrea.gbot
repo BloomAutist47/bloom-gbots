@@ -408,8 +408,8 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 4801
+    "sName": "Sepulchure",
+    "iPort": 23750
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
