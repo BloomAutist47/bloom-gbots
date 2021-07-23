@@ -1843,6 +1843,14 @@
         "Type": 1
       },
       {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "Crystal-Rock"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
+        "Monster": "Rock"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
         "Tag": "Item",
         "Text": "Is not in temp",
@@ -1850,8 +1858,8 @@
         "Value2": "3"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Skill Check"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2511,7 +2519,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1230
+          "QuestID": 1230,
+          "CanComplete": true
         }
       },
       {
@@ -3031,7 +3040,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1240
+          "QuestID": 1240,
+          "CanComplete": true
         }
       },
       {
@@ -3139,7 +3149,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1272
+          "QuestID": 1272,
+          "CanComplete": true
         }
       },
       {
@@ -4155,9 +4166,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 200
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -5222,9 +5230,6 @@
         }
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
         "Delay": 200
       },
@@ -5775,7 +5780,9 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1422
+          "QuestID": 1422,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -5914,7 +5921,9 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1422
+          "QuestID": 1422,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -5983,13 +5992,15 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1500
+        "Delay": 2500
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 1422
+          "QuestID": 1422,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -5998,7 +6009,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "m-4"
+        "Label": "m-5"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -6802,7 +6813,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1500
+        "Delay": 2500
       },
       {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
@@ -6810,9 +6821,6 @@
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 1455
         }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -7765,6 +7773,11 @@
     "$values": [
       "Red's Big Wolf Slaying Axe"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 28688
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,

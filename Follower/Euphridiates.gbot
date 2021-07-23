@@ -73,19 +73,18 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Yulgar Safespot",
-        "Value": 1
+        "Int": "Use Yulgar Safespot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Player",
-        "Value2": "weebolate"
+        "Value2": "Euphridiates"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%cmd%1%goto%weebolate%"
+        "Packet": "%xt%zm%cmd%1%goto%Euphridiates%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -315,6 +314,21 @@
         "PlayerName": "[Player]"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerIsInCell, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is in cell",
+        "Value1": "[Player]",
+        "Value2": "Cell name"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check Player"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -394,8 +408,8 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Gravelyn",
-    "iPort": 34470
+    "sName": "Sepulchure",
+    "iPort": 23750
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
@@ -404,6 +418,7 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
