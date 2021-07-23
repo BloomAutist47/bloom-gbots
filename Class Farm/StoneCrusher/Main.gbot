@@ -782,7 +782,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdGoldLessThan, Grimoire",
         "Tag": "This player",
         "Text": "Gold is less than",
-        "Value1": "150000",
+        "Value1": "250000",
         "Value2": ""
       },
       {
@@ -995,7 +995,7 @@
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Gold Count",
-        "Value2": "150000"
+        "Value2": "250000"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
@@ -1313,7 +1313,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Sepulchure",
-    "iPort": 38965
+    "iPort": 11363
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
