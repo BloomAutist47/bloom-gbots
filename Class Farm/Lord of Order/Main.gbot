@@ -65,6 +65,10 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[247, 245, 111]NOTE"
       },
       {
@@ -81,7 +85,15 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -90,6 +102,10 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[250, 250, 250]Change Skills in Skillset.gbot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -109,7 +125,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Map No.",
-        "Value2": "1e99"
+        "Value2": "99676"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -121,19 +137,23 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[247, 245, 111]4. BOAT START"
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]2. BOAT START"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[250, 250, 250]Just press Start and enjoy :)"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -281,7 +301,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 100
+        "Delay": 50
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
@@ -341,6 +361,11 @@
         "Text": "Set Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Debug Mode",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -582,6 +607,10 @@
         "Name": "m"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Axiom"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
         "Tag": "Misc",
         "Text": "Int is",
@@ -590,7 +619,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "end"
+        "Label": "End"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInBank, Grimoire",
@@ -959,6 +988,18 @@
         "Name": "7156 - Heart of Servitude"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not available",
@@ -1195,6 +1236,16 @@
         "Delay": 1600
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -1244,8 +1295,8 @@
         "ItemName": "Lord of Order Bladed Wrap"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -1301,33 +1352,26 @@
         "Name": "7156 - Pristine Blades of Order"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLog, Grimoire",
-        "Text": "Current Item:\r\n- Pristine Blades of Order x1\r\n"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Pristine Blades of Order",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Pristine Blades of Order"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in inventory",
-        "Value1": "Pristine Blades of Order",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "7156 - Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7156 - Pristine Blades of Order - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -1342,6 +1386,25 @@
         "Room": "[Map No.]",
         "Cell": "Frame9",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7156 - Pristine Blades of Order - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Pristine Blades of Order",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Pristine Blades of Order"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -1365,30 +1428,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Pristine Blades of Order",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1419,11 +1458,19 @@
         "Name": "7156 - Dreadrock Donation Receipt"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLog, Grimoire",
-        "Text": "Current Item:\r\n- Dreadrock Donation Receipt x1\r\n"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -1468,13 +1515,13 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Enter",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
-        "Pad": "Spawn"
+        "Cell": "Blank",
+        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -1540,36 +1587,33 @@
         "Name": "7156 - Deadmoor Spirits Helped"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7156 - Deadmoor Spirits Helped - Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Deadmoor Spirits Helped",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Deadmoor Spirits Helped"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in inventory",
-        "Value1": "Deadmoor Spirits Helped",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "7156 - Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -1584,6 +1628,25 @@
         "Room": "[Map No.]",
         "Cell": "r30",
         "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7156 - Deadmoor Spirits Helped - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Deadmoor Spirits Helped",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Deadmoor Spirits Helped"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -1607,30 +1670,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Deadmoor Spirits Helped",
-        "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1659,6 +1698,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7156 - Mage's Gratitude"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -1716,6 +1767,18 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -1861,6 +1924,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7157 - Spirit of Justice"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
@@ -2064,6 +2139,16 @@
         "Delay": 1600
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -2113,8 +2198,8 @@
         "ItemName": "Lord of Order Wings + Wrap"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -2170,22 +2255,33 @@
         "Name": "7157 - Warden Elfis Detained"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7157 - Warden Elfis Detained - Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Warden Elfis Detained",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Warden Elfis Detained"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -2200,6 +2296,25 @@
         "Room": "[Map No.]",
         "Cell": "Warden",
         "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7157 - Warden Elfis Detained - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Warden Elfis Detained",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Warden Elfis Detained"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -2223,30 +2338,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Warden Elfis Detained",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2273,26 +2364,30 @@
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Target Monster",
-        "Value2": "*"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7157 - Piggy Drake Punished"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Piggy Drake Punished",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Piggy Drake Punished"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7157 - Piggy Drake Punished - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -2309,6 +2404,25 @@
         "Pad": "Right"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7157 - Piggy Drake Punished - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Piggy Drake Punished",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Piggy Drake Punished"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
@@ -2321,10 +2435,6 @@
         "Pad": "Right"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
-        "Type": 1
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in temp",
@@ -2334,30 +2444,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Piggy Drake Punished",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2388,22 +2474,33 @@
         "Name": "7157 - Mysterious Stranger Foiled"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7157 - Mysterious Stranger Foiled - Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Mysterious Stranger Foiled",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Mysterious Stranger Foiled"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -2418,6 +2515,25 @@
         "Room": "[Map No.]",
         "Cell": "r19",
         "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7157 - Mysterious Stranger Foiled - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Mysterious Stranger Foiled",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Mysterious Stranger Foiled"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -2441,30 +2557,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Mysterious Stranger Foiled",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2495,6 +2587,21 @@
         "Name": "7157 - Calico Cobby Crushed"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
@@ -2502,15 +2609,11 @@
         "Value2": "*"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Calico Cobby Crushed",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Calico Cobby Crushed"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7157 - Calico Cobby Crushed - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -2525,6 +2628,25 @@
         "Room": "[Map No.]",
         "Cell": "r5a",
         "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7157 - Calico Cobby Crushed - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Calico Cobby Crushed",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Calico Cobby Crushed"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -2548,30 +2670,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Calico Cobby Crushed",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2624,6 +2722,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7158 - Purification of Chaos"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
@@ -2827,6 +2937,16 @@
         "Delay": 1600
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -2848,6 +2968,21 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7158 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Lord of Order Double Wings + Wrap",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Lord of Order Double Wings + Wrap"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -2887,6 +3022,21 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7158 - Chaoroot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -3042,15 +3192,26 @@
         "Name": "7158 - Chaotic War Essence"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Chaotic War Essence",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Chaotic War Essence"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7158 - Chaotic War Essence - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -3065,6 +3226,25 @@
         "Room": "[Map No.]",
         "Cell": "r2",
         "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7158 - Chaotic War Essence - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Chaotic War Essence",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Chaotic War Essence"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -3088,30 +3268,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Chaotic War Essence",
-        "Value2": "15"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3142,15 +3298,26 @@
         "Name": "7158 - Chaorrupting Particles"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Chaorrupting Particles",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Chaorrupting Particles"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7158 - Chaorrupting Particles - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -3165,6 +3332,25 @@
         "Room": "[Map No.]",
         "Cell": "r13",
         "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7158 - Chaorrupting Particles - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Chaorrupting Particles",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Chaorrupting Particles"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -3188,30 +3374,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Chaorrupting Particles",
-        "Value2": "15"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3242,15 +3404,26 @@
         "Name": "7158 - Purified Raindrop"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Purified Raindrop",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Purified Raindrop"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7158 - Purified Raindrop - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -3265,6 +3438,25 @@
         "Room": "[Map No.]",
         "Cell": "r16",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7158 - Purified Raindrop - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Purified Raindrop",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Purified Raindrop"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -3288,30 +3480,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Purified Raindrop",
-        "Value2": "45"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3364,6 +3532,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7159 - Steadfast Will"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
@@ -3562,6 +3742,16 @@
         "Delay": 1600
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -3583,6 +3773,21 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7159 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Lord of Order Helm",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Lord of Order Helm"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -3624,22 +3829,33 @@
         "Name": "7159 - Gaiazor's Cornerstone"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7159 - Gaiazor's Cornerstone - Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Gaiazor's Cornerstone",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Gaiazor's Cornerstone"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -3656,6 +3872,25 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7159 - Gaiazor's Cornerstone - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Gaiazor's Cornerstone",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Gaiazor's Cornerstone"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
@@ -3668,10 +3903,6 @@
         "Pad": "Left"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
-        "Type": 1
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in temp",
@@ -3681,30 +3912,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Gaiazor's Cornerstone",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3735,6 +3942,21 @@
         "Name": "7159 - Dakka's Crystal"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
@@ -3754,15 +3976,22 @@
         "BotFilePath": "Bots\\Class Farm\\Lord of Order\\Modules\\4_Bloom_LivingDungeon_Storyline_rev.gbot"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Dakka's Crystal",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "4362",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Dakka's Crystal"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7159 - Dakka's Crystal - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -3779,6 +4008,25 @@
         "Pad": "Spawn"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7159 - Dakka's Crystal - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Dakka's Crystal",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Dakka's Crystal"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
@@ -3791,10 +4039,6 @@
         "Pad": "Spawn"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
-        "Type": 1
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in temp",
@@ -3804,30 +4048,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Dakka's Crystal",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3858,15 +4078,26 @@
         "Name": "7159 - Andre's Necklace Fragment"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Andre's Necklace Fragment",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Andre's Necklace Fragment"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7159 - Andre's Necklace Fragment - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -3890,6 +4121,21 @@
         "Pad": "Spawn"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7159 - Andre's Necklace Fragment - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Andre's Necklace Fragment",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Andre's Necklace Fragment"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
@@ -3902,10 +4148,6 @@
         "Pad": "Spawn"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
-        "Type": 1
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in temp",
@@ -3915,30 +4157,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Andre's Necklace Fragment",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3969,22 +4187,33 @@
         "Name": "7159 - Desolich's Skull"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7159 - Desolich's Skull - Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Desolich's Skull",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Desolich's Skull"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -3999,6 +4228,21 @@
         "Room": "[Map No.]",
         "Cell": "r3",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7159 - Desolich's Skull - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Desolich's Skull",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Desolich's Skull"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -4026,30 +4270,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Desolich's Skull",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -4110,6 +4330,18 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7160 - Strike of Order"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
@@ -4324,6 +4556,16 @@
         "Delay": 1600
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -4345,6 +4587,21 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7160 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Lord of Order Horns",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Lord of Order Horns"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -4371,22 +4628,41 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
+        "Text": "[247, 245, 111]QUEST 5: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Hanzamune Dragon Koi Blade"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7160 - Hanzamune Dragon Koi Blade"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Hanzamune Dragon Koi Blade",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Hanzamune Dragon Koi Blade"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7160 - Hanzamune Dragon Koi Blade - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -4401,6 +4677,21 @@
         "Room": "[Map No.]",
         "Cell": "Boss",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7160 - Hanzamune Dragon Koi Blade - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Hanzamune Dragon Koi Blade",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Hanzamune Dragon Koi Blade"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -4424,30 +4715,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Hanzamune Dragon Koi Blade",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -4478,15 +4745,26 @@
         "Name": "7160 - The Supreme Arcane Staff"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "The Supreme Arcane Staff",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "The Supreme Arcane Staff"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7160 - The Supreme Arcane Staff - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -4501,6 +4779,25 @@
         "Room": "[Map No.]",
         "Cell": "Boss",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7160 - The Supreme Arcane Staff - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "The Supreme Arcane Staff",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "The Supreme Arcane Staff"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -4524,30 +4821,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "The Supreme Arcane Staff",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -4578,15 +4851,26 @@
         "Name": "7160 - Dragonoid of Hours"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Dragonoid of Hours",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Dragonoid of Hours"
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7160 - Dragonoid of Hours - Check"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -4601,6 +4885,21 @@
         "Room": "[Map No.]",
         "Cell": "Boss",
         "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7160 - Dragonoid of Hours - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Dragonoid of Hours",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Dragonoid of Hours"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -4624,30 +4923,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in temp",
-        "Value1": "Dragonoid of Hours",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -4676,6 +4951,21 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7160 - Safiria's Spirit Orb"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -4751,6 +5041,9 @@
         "Name": "7160 - Ice Katana"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
         "Tag": "Item",
         "Text": "Has dropped",
@@ -4762,32 +5055,6 @@
         "ItemName": "Ice Katana"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Map is not",
-        "Value1": "drakonnan",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "drakonnan",
-        "Room": "[Map No.]",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Enter",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in temp",
@@ -4795,8 +5062,9 @@
         "Value2": "1"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Skill Check"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "5_Bloom_DragonfableOrigins_Storyline_rev.gbot",
+        "BotFilePath": "Bots\\Class Farm\\Lord of Order\\Modules\\5_Bloom_DragonfableOrigins_Storyline_rev.gbot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -4807,8 +5075,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 3
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -4821,6 +5088,10 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "Blank",
         "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -4871,6 +5142,274 @@
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Harmony"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7161",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Done"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7161 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Class Equip",
+        "Value2": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "7161",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7161
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Unbank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Unbank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Unity of Life",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Unity of Life"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Harmony of Solace",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Harmony of Solace"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Teamwork Observed",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Teamwork Observed"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Scroll of Enchantment",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Scroll of Enchantment"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Class Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Unity of Life",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Unity of Life"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Harmony of Solace",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Harmony of Solace"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Scroll of Enchantment",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Scroll of Enchantment"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Teamwork Observed",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Teamwork Observed"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7161
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "High Lord of Order Helm",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "High Lord of Order Helm"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "High Lord of Order Helm",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "High Lord of Order Helm"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "m"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
@@ -4880,6 +5419,111 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 6: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Unity of Life"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Unity of Life"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7161 - Unity of Life - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "Tree of Destiny"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "elemental",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "elemental",
+        "Room": "[Map No.]",
+        "Cell": "r4",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Unity of Life - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Unity of Life",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Unity of Life"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r4",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r4",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Unity of Life",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
@@ -4888,6 +5532,111 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 6: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Harmony of Solace"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Harmony of Solace"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7161 - Harmony of Solace - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "orchestra",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "orchestra",
+        "Room": "[Map No.]",
+        "Cell": "R8",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Harmony of Solace - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Harmony of Solace",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Harmony of Solace"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "R8",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "R8",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Harmony of Solace",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
@@ -4896,6 +5645,139 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 6: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Teamwork Observed"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Teamwork Observed"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Skill Counter",
+        "Value2": "24"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7161 - Teamwork Observed - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "cathedral",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "cathedral",
+        "Room": "[Map No.]",
+        "Cell": "r8",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Class Equip",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Class Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Teamwork Observed - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Teamwork Observed",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Teamwork Observed"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r8",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r8",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Teamwork Observed",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
@@ -4904,19 +5786,120 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
+        "Text": "[247, 245, 111]QUEST 6: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Scroll of Enchantment"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Scroll of Enchantment"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7161 - Scroll of Enchantment - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "goose",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "goose",
+        "Room": "[Map No.]",
+        "Cell": "r12",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7161 - Scroll of Enchantment - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Scroll of Enchantment",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Scroll of Enchantment"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r12",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r12",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Scroll of Enchantment",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7161 - Check"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -4947,6 +5930,320 @@
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Ordinance"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7162",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Done"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Class Equip",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "7162",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7162
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Unbank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Unbank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Acolyte's Braille",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Acolyte's Braille"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Suppressed Drows",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Suppressed Drows"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Suppressed Undead",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Suppressed Undead"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Suppressed Horcs",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Suppressed Horcs"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Suppressed Weavers",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Suppressed Weavers"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Strength of Resilience",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Strength of Resilience"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Class Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Acolyte's Braille",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Acolyte's Braille"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Drows",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Suppressed Drows"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Undead",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Suppressed Undead"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Horcs",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Suppressed Horcs"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Weavers",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Suppressed Weavers"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Strength of Resilience",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Strength of Resilience"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7162
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Lord of Order Blade",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Lord of Order Blade"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Lord of Order Blade",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Lord of Order Blade"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "m"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
@@ -4956,6 +6253,111 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 7: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Acolyte's Braille"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Acolyte's Braille"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7162 - Acolyte's Braille - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "Chaos Healer"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "newfinale",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "newfinale",
+        "Room": "[Map No.]",
+        "Cell": "r1",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Acolyte's Braille - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Acolyte's Braille",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Acolyte's Braille"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r1",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r1",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Acolyte's Braille",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
@@ -4964,6 +6366,111 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 7: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Suppressed Drows"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Drows"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7162 - Suppressed Drows - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "wardwarf",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "wardwarf",
+        "Room": "[Map No.]",
+        "Cell": "r4",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Drows - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Suppressed Drows",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Suppressed Drows"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r4",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r4",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Drows",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
@@ -4972,11 +6479,483 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 7: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Suppressed Undead"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Undead"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7162 - Suppressed Undead - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "warundead",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "warundead",
+        "Room": "[Map No.]",
+        "Cell": "r2",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Undead - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Suppressed Undead",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Suppressed Undead"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r2",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r2",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Undead",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 7: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Suppressed Horcs"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Horcs"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7162 - Suppressed Horcs - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "warhorc",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "warhorc",
+        "Room": "[Map No.]",
+        "Cell": "r2",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Horcs - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Suppressed Horcs",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Suppressed Horcs"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r2",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r2",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Horcs",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 7: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Suppressed Weavers"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Weavers"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7162 - Suppressed Weavers - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "weaverwar",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "weaverwar",
+        "Room": "[Map No.]",
+        "Cell": "s1",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Suppressed Weavers - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Suppressed Weavers",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Suppressed Weavers"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "s1",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "s1",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Suppressed Weavers",
+        "Value2": "50"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 7: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Strength of Resilience"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Strength of Resilience"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Skill Counter",
+        "Value2": "12"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7162 - Strength of Resilience - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "thevoid",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "thevoid",
+        "Room": "[Map No.]",
+        "Cell": "r12",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Class Equip",
+        "Value2": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Class Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7162 - Strength of Resilience - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Strength of Resilience",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Strength of Resilience"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r12",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r12",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Strength of Resilience",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7162 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -5015,6 +6994,320 @@
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Axiom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Type": 1,
+        "Index": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7163",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Done"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Class Equip",
+        "Value2": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 2
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "7163",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7163
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Unbank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Unbank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Law of Nature",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Law of Nature"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Law of Time",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Law of Time"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Law of Gravity",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Law of Gravity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Law of Relativity",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Law of Relativity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Law of Conservation of Energy",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Law of Conservation of Energy"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Law of Low Drop Rates",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Law of Low Drop Rates"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Class Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Nature",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Law of Nature"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Time",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Law of Time"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Gravity",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Law of Gravity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Relativity",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Law of Relativity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Conservation of Energy",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Law of Conservation of Energy"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Low Drop Rates",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Law of Low Drop Rates"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Debug Mode",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 7163
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Bank"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Lord of Order Polearm",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Lord of Order Polearm"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in inventory",
+        "Value1": "Lord of Order Polearm",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "ItemName": "Lord of Order Polearm"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "m"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
@@ -5024,11 +7317,681 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 8: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Law of Nature"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Nature"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7163 - Law of Nature - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "elfhame",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "andre",
+        "Room": "[Map No.]",
+        "Cell": "elfhame",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Nature - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Law of Nature",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Law of Nature"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r7",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r7",
+        "Pad": "Bottom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Nature",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 8: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Law of Time"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Time"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7163 - Law of Time - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "deepchaos",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "andre",
+        "Room": "[Map No.]",
+        "Cell": "deepchaos",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Time - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Law of Time",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Law of Time"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Frame4",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Frame4",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Time",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 8: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Law of Gravity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Gravity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7163 - Law of Gravity - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "necrocavern",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "andre",
+        "Room": "[Map No.]",
+        "Cell": "necrocavern",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Gravity - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Law of Gravity",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Law of Gravity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r12",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r12",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Gravity",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 8: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Law of Relativity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Relativity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7163 - Law of Relativity - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "blackholesun",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "andre",
+        "Room": "[Map No.]",
+        "Cell": "blackholesun",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Relativity - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Law of Relativity",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Law of Relativity"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r9",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r9",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Relativity",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 8: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Law of Conservation of Energy"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Conservation of Energy"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7163 - Law of Conservation of Energy - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "thunderfang",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "andre",
+        "Room": "[Map No.]",
+        "Cell": "thunderfang",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Conservation of Energy - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Law of Conservation of Energy",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Law of Conservation of Energy"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r12",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r12",
+        "Pad": "Bottom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Conservation of Energy",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[247, 245, 111]QUEST 8: REQ"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Law of Low Drop Rates"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[45, 45, 45]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Low Drop Rates"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Check",
+        "Value2": "7163 - Law of Low Drop Rates - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "lair",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "andre",
+        "Room": "[Map No.]",
+        "Cell": "lair",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
+        "Type": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "7163 - Law of Low Drop Rates - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
+        "Tag": "Item",
+        "Text": "Has dropped",
+        "Value1": "Law of Low Drop Rates",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
+        "ItemName": "Law of Low Drop Rates"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "End",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "End",
+        "Pad": "Bottom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in temp",
+        "Value1": "Law of Low Drop Rates",
+        "Value2": "100"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Skill Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "7163 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -5383,15 +8346,17 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Twig",
-    "iPort": 29946
+    "iPort": 2558
   },
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 10000,
+  "BotDelay": 50,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "LagKiller": true,
+  "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {

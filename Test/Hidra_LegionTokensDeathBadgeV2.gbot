@@ -1,0 +1,167 @@
+{
+  "$type": "Grimoire.Botting.Configuration, Grimoire",
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
+    "$values": [
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "START"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "legionarena",
+        "Room": "1",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 6743,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Boss",
+        "Pad": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Skill Set"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "1: Temporal Transpierce",
+        "Index": "1",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "2: Spacial Power",
+        "Index": "2",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "3: Extrasensory Perception",
+        "Index": "3",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
+        "Skill": "4: Matter Distortion",
+        "Index": "4",
+        "SafeHp": 100,
+        "SafeMp": 100
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest can not be turned in",
+        "Value1": "6743",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "SKILL SET"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 300
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 6743,
+          "IsInProgress": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "START"
+      }
+    ]
+  },
+  "Skills": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Skill, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Quests": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Author": "Hidra",
+  "Description": "Legion Tokens and Deathbadge Bot",
+  "Boosts": {
+    "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
+    "$values": []
+  },
+  "Drops": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": [
+      "Death Badge",
+      "Legion Token",
+      "Axeros' Brooch"
+    ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Galanoth",
+    "iPort": 43033
+  },
+  "SkillDelay": 500,
+  "ExitCombatBeforeRest": true,
+  "EnablePickup": true,
+  "EnableRejection": true,
+  "AutoRelogin": true,
+  "RelogDelay": 5000,
+  "SkipDelayIndexIf": true,
+  "InfiniteAttackRange": true,
+  "ProvokeMonsters": true,
+  "Untarget": true,
+  "LagKiller": true,
+  "SkipCutscenes": true,
+  "WalkSpeed": 8,
+  "NotifyUponDrop": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "RestMp": 60,
+  "RestHp": 60,
+  "RestartUponDeath": true,
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "EnsureTries": 20,
+  "DropDelay": 1000
+}

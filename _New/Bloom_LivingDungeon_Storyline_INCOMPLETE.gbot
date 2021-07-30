@@ -124,7 +124,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Map No.",
-        "Value2": "1e99"
+        "Value2": "99753"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -424,7 +424,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%81785%4349%4350%4351%4352%4353%4354%4355%4356%4357%4358%4359%4360%4361%4362%4363%4364%"
+        "Packet": "%xt%zm%getQuests%143148%4348%4349%4350%4351%4352%4353%4354%4355%4356%4357%4358%4359%4360%4361%4362%4363%4364%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -658,6 +658,17 @@
         "Label": "4349 - Roots of all Evil"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "4348",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "4348 - Titan Hollow"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "m"
       },
@@ -860,6 +871,90 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[238, 140, 255]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]Quest 1.0"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "4348 - Titan Hollow"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not in progress",
+        "Value1": "4348",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
+        "Quest": {
+          "$type": "Grimoire.Game.Data.Quest, Grimoire",
+          "QuestID": 4348,
+          "CanComplete": true
+        }
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "livingdungeon",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "livingdungeon",
+        "Room": "[Map No.]",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "4348 - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Blank",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Blank",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%tryQuestComplete%143234%4348%-1%false%wvz%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 200
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "m-1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -3468,7 +3563,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "m-3"
+        "Label": "End"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -3523,8 +3618,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4363,
-          "IsInProgress": true
+          "QuestID": 4363
         }
       },
       {
@@ -3599,8 +3693,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 4363,
-          "IsInProgress": true
+          "QuestID": 4363
         }
       },
       {
@@ -4121,7 +4214,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Twig",
-    "iPort": 15315
+    "iPort": 49172
   },
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,
