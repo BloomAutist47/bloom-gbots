@@ -73,21 +73,22 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Yulgar Safespot - 1 (Yes) or 0 (No)"
+        "Int": "Yulgar Safespot - 1 (Yes) or 0 (No)",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Player",
-        "Value2": "Tirea"
+        "Value2": "<TARGET PLAYER NAME>"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Packet",
-        "Value2": "%xt%zm%cmd%1%goto%Tirea%"
+        "Value2": "%xt%zm%cmd%1%goto%<TARGET PLAYER NAME>%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -438,7 +439,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Gravelyn",
-    "iPort": 54479
+    "iPort": 62115
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,

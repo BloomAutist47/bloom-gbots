@@ -116,26 +116,21 @@
         "Name": "Settings"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
-        "Value1": "Map No.",
-        "Value2": "99676"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Continue Doomvault B - Yes (1) or No (2)",
+        "Int": "Continue Doomvault B",
         "Value": 1
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Fight Raxgore - Yes (1) or No (2)",
-        "Value": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Farm Gold - Public (1) or Private (2)",
         "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Map No.",
+        "Value2": "99676"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -8574,16 +8569,6 @@
         "Pad": "Left"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
-        "Tag": "Misc",
-        "Text": "Int is not",
-        "Value1": "Fight Raxgore - Yes (1) or No (2)",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7164 - Weapon Imprint - Check"
       },
@@ -9481,11 +9466,6 @@
       " ",
       " "
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 16023
   },
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,

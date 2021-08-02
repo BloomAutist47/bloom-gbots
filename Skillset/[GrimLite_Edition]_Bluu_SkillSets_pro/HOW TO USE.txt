@@ -1,0 +1,27 @@
+Only usable with _pro bots.
+
+Join https://discord.io/AQWBots for help with everything related to AQW Botting, and visit our portal website,
+https://adventurequest.life/ for more bots.
+
+There are 3 main types of skillsets: Soloing, Farming, and Full Dodge. Soloing is used for killing a single strong
+monster, Farming for killing multiple monsters, and Full Dodge for killing a single extremely strong monster.
+
+Note: EVEN IF A CLASS USES THE SAME SKILLSET FOR SOLOING AND FARMING, PLEASE USE ITS SOLOING SKILLSET FOR SOLOING
+AND ITS FARMING SKILLSET FOR FARMING. THEY ARE DESIGNED DIFFERENTLY TO FIT THEIR RESPECTIVE ROLES AND NOT USING THE
+RIGHT SKILLSET WILL CAUSE ISSUES.
+
+1) Open the bot you want to edit in Grimoire. See what skillsets are required by the bot, for example, Soloing,
+   Farming, etc. 
+2) Open an additional tab of Grimoire. (Right Click the Grimoire Icon on your taskbar and click Grimoire.)
+3) Open the Bluu_GrimPro_Skillsets.gbot file in this new Grimoire.
+4) Find a skillset for the class you want to use and copy it by left-clicking and dragging your mouse over the
+   commands and using Ctrl+C. Certain bots allow you to use different skillsets for High HP or Low HP Farming,
+   in such cases just use your generic farming class' skillset unless the one you're using has different skillsets
+   for them (VampLord, Dragon of Time, and DragonLord have different skillsets for them). Same applies with Low HP,
+   High HP, and Defensive Soloing.
+5) Now go back to the first tab of Grimoire you opened and paste it into the appropriate section. Repeat this for
+   all the skillsets. DO NOT EDIT THE SKILLSETS OR REMOVE THE SKILL 5: POTIONS COMMAND, THIS IS A COMMON MISTAKE 
+   AND CAUSES THE BOT TO BREAK. PLEASE CONTACT A HELPER BEFORE DOING ANYTHING TO THE SKILLSETS.
+
+If this is too difficult for you to understand, join our reddit/discord/forums and ask for help over there.
+Video guide out soon.
