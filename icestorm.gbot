@@ -8,7 +8,7 @@
         "Name": "join"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -103,7 +103,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description",
+  "Description": "Description (Write in RTF)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -115,7 +115,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Artix",
-    "iPort": 65509
+    "iPort": 62261
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,
@@ -123,7 +123,6 @@
   "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
-  "BotDelay": 1000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "EnemyMagnet": true,

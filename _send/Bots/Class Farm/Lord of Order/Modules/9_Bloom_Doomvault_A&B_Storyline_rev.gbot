@@ -5,7 +5,7 @@
     "$values": [
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Settings"
+        "Label": "Start"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -287,7 +287,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
-        "Value1": "Continue Doomvault B",
+        "Value1": "Continue Doomvault B - Yes (1) or No (2)",
         "Value2": "1"
       },
       {
