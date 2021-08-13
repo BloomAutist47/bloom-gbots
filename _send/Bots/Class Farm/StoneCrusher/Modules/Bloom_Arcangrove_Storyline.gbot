@@ -627,7 +627,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Skillset.gbot",
-        "BotFilePath": "Bots\\Skillset\\Skillset.gbot"
+        "BotFilePath": "[Skillset]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -649,7 +649,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Skillset.gbot",
-        "BotFilePath": "Bots\\Skillset\\Skillset.gbot"
+        "BotFilePath": "[Skillset]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",

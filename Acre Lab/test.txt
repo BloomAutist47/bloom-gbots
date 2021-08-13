@@ -1,0 +1,74 @@
+1 - First Quest
+ID: 1
+10 - Pet Food Delivery
+ID: 10
+Required items
+Bundle of Hay
+ID: 88
+Quantity: 5
+2 - Chieftain's Head
+ID: 2
+Required items
+Chieftain's Head
+ID: 35
+Quantity: 1
+3 - Chipped Tooth
+ID: 3
+Required items
+Chipped Tooth
+ID: 33
+Quantity: 10
+Rewards
+Small Skull
+Drop chance: 100
+ID: 559
+Quantity: 1
+4 - Hideous Tail
+ID: 4
+Required items
+Hideous Zard Tail
+ID: 32
+Quantity: 5
+5 - Funny Bone
+ID: 5
+Required items
+Jack Sprat's Funny Bone
+ID: 42
+Quantity: 1
+Rewards
+Small Skull
+Drop chance: 100
+ID: 559
+Quantity: 1
+6 - Porkon's Pride
+ID: 6
+Required items
+Porkon's Pride
+ID: 44
+Quantity: 1
+7 - Zorbak's Reward
+ID: 7
+Required items
+Small Skull
+ID: 559
+Quantity: 8
+Rewards
+Bone Sword
+Drop chance: 100
+ID: 47
+Quantity: 1
+8 - Secret Map
+ID: 8
+Required items
+Secret Map
+ID: 50
+Quantity: 1
+9 - Farm Cleanup
+ID: 9
+Required items
+Bundle of Hay
+ID: 88
+Quantity: 5
+Mosquito Wing
+ID: 80
+Quantity: 10

@@ -119,6 +119,13 @@
         "Value2": "94747"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Skillset",
+        "Value2": "Bots\\Skillset\\Skillset.gbot"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
@@ -1351,11 +1358,6 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twig",
-    "iPort": 31792
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,

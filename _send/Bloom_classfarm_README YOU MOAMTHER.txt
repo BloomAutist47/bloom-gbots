@@ -3,6 +3,7 @@ I. How to install:
 
 	good (do this):
 	- Bots/Class Farm/
+	- Bots/Skillset/
 
 
 	autistic (don't do this. it wont work):

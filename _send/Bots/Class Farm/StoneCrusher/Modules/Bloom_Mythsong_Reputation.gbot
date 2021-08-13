@@ -73,7 +73,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Skillset.gbot",
-        "BotFilePath": "Bots\\Skillset\\Skillset.gbot"
+        "BotFilePath": "[Skillset]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -160,7 +160,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Skillset.gbot",
-        "BotFilePath": "Bots\\Skillset\\Skillset.gbot"
+        "BotFilePath": "[Skillset]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
