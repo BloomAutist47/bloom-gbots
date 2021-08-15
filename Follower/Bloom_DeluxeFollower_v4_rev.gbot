@@ -80,14 +80,14 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Player",
-        "Value2": "Kyrea"
+        "Value2": "<Target Player Name>"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Packet",
-        "Value2": "%xt%zm%cmd%1%goto%Kyrea%"
+        "Value2": "%xt%zm%cmd%1%goto%<Target Player Name>%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",

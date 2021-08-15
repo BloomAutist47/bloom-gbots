@@ -44,8 +44,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7816,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         }
       },
       {
@@ -127,8 +126,7 @@
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
           "QuestID": 7816,
-          "IsInProgress": true,
-          "CanComplete": true
+          "IsInProgress": true
         }
       },
       {
@@ -207,7 +205,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "Escherion-1e99",
+        "Map": "Escherion-94747",
         "Cell": "Boss",
         "Pad": "Left"
       },
@@ -304,7 +302,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "stalagbite-1e99",
+        "Map": "stalagbite-94747",
         "Cell": "r2",
         "Pad": "Left"
       },
@@ -397,7 +395,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "hydrachallenge-99649",
+        "Map": "hydrachallenge-94747",
         "Cell": "h85",
         "Pad": "Left"
       },
@@ -549,13 +547,12 @@
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 7816,
         "Text": "7816",
-        "IsInProgress": true,
-        "CanComplete": true
+        "IsInProgress": true
       }
     ]
   },
   "Author": "Author",
-  "Description": "Description",
+  "Description": "Description (Write in RTF)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -572,7 +569,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Sepulchure",
-    "iPort": 44429
+    "iPort": 25063
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,

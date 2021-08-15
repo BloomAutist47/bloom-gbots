@@ -94,18 +94,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
-        "Tag": "Map",
-        "Text": "Map is",
-        "Value1": "battleon",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
-        "BotFileName": "Main.gbot",
-        "BotFilePath": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Main.gbot"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
@@ -1901,7 +1889,9 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2084
+          "QuestID": 2084,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -2014,7 +2004,9 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2084
+          "QuestID": 2084,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -2353,7 +2345,9 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2084
+          "QuestID": 2084,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -2442,6 +2436,11 @@
       "Loyal Spirit Orb",
       "Undead Energy"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 49241
   },
   "ExitCombatBeforeRest": true,
   "ExitCombatBeforeQuest": true,

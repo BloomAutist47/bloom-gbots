@@ -300,31 +300,6 @@
         "Pad": "Bloom"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
-        "Tag": "Map",
-        "Text": "Map is",
-        "Value1": "battleon",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "yulgar",
-        "Room": "1e99",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
-        "Tag": "Map",
-        "Text": "Map is",
-        "Value1": "battleon",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdChange, Grimoire",
         "Text": "BOT BY BLUU | BLOOM | WEEB"
       },
@@ -395,7 +370,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%74470%2084%2059%2066%2067%374%375%376%377%14846%689%690%691%692%935%%10255%936%937%938%939%2082%2083%2091%2105%2131%2136%552%"
+        "Packet": "%xt%zm%getQuests%74470%2084%2059%2066%2067%374%375%376%377%14846%689%690%691%692%935%%10255%936%937%938%939%2082%2083%2091%2105%2131%2136%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -451,18 +426,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "m-prereqs"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not available",
-        "Value1": "552",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
-        "BotFileName": "Prereq - Bloom_5thChaosLord_DarkoviaWolfwing_pro.gbot",
-        "BotFilePath": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Modules\\Prereq - Bloom_5thChaosLord_DarkoviaWolfwing_pro.gbot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
@@ -753,6 +716,11 @@
       " ",
       " "
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 41147
   },
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,

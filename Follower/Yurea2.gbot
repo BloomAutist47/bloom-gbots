@@ -21,7 +21,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[133, 171, 255]Deluxe v.4"
+        "Text": "[133, 171, 255]Deluxe v.2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -80,14 +80,14 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Player",
-        "Value2": "Kyrea"
+        "Value2": "Yurea"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Packet",
-        "Value2": "%xt%zm%cmd%1%goto%Kyrea%"
+        "Value2": "%xt%zm%cmd%1%goto%Yurea%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -332,6 +332,21 @@
         "Delay": 1600
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerIsInMyCell, Grimoire",
+        "Tag": "Player",
+        "Text": "Player is in my cell",
+        "Value1": "[Player]",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Check Player"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerInRoom, Grimoire",
         "Tag": "Player",
         "Text": "Player is in room",
@@ -444,6 +459,11 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twig",
+    "iPort": 44188
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
