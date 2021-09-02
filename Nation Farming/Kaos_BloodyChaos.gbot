@@ -331,6 +331,18 @@
         "Name": "Kill - Vath"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "r2",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "r2",
+        "Pad": "Left"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Combat.CmdUseSkill, Grimoire",
         "Skill": "3: Depraved Empowerment",
         "Index": "3",
@@ -569,7 +581,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Sepulchure",
-    "iPort": 25063
+    "iPort": 19727
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
@@ -580,7 +592,6 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,
-  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {

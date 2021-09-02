@@ -100,7 +100,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Main.gbot",
-        "BotFilePath": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Main.gbot"
+        "BotFilePath": "[Main Gbot Path]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
@@ -391,7 +391,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2180
+          "QuestID": 2180,
+          "IsInProgress": true
         }
       },
       {
@@ -409,12 +410,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
-        "Value1": "Blinding Aura",
-        "Value2": "1"
+        "Value1": "Loyal Spirit Orb",
+        "Value2": "250"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Blinding Aura"
+        "Label": "Loyal Spirit Orb"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -431,23 +432,23 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is not in inventory",
+        "Value1": "Blinding Aura",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Blinding Aura"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
+        "Tag": "Item",
+        "Text": "Is not in inventory",
         "Value1": "Bright Aura",
         "Value2": "125"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Bright Aura"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Loyal Spirit Orb",
-        "Value2": "250"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Loyal Spirit Orb"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
@@ -483,7 +484,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2180
+          "QuestID": 2180,
+          "IsInProgress": true
         }
       },
       {
@@ -934,7 +936,9 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2178
+          "QuestID": 2178,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -949,11 +953,36 @@
         "Index": 2
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
         "Tag": "Map",
-        "Text": "Map is not",
+        "Text": "Map is",
         "Value1": "necrodungeon",
         "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Finding Fragments - Check"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Use Public /necrodungeon",
+        "Value2": "1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "necrodungeon",
+        "Room": "1",
+        "Cell": "r22",
+        "Pad": "Down"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is not",
+        "Value1": "Use Public /necrodungeon",
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
@@ -971,7 +1000,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2
+        "Index": 7
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -995,6 +1024,13 @@
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
         "ItemName": "Blinding Light Fragments"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "Use Provoke During Finding Fragments",
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
@@ -1050,7 +1086,9 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2178
+          "QuestID": 2178,
+          "IsInProgress": true,
+          "CanComplete": true
         }
       },
       {
@@ -1309,31 +1347,36 @@
         "Tag": "Item",
         "Text": "Is not in inventory",
         "Value1": "Loyal Spirit Orb",
-        "Value2": "50"
+        "Value2": "300"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
         "Type": 1,
-        "Index": 5
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
+        "Index": 7
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdBuyFast, Grimoire",
         "ItemName": "Bright Aura"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 700
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
         "Tag": "Item",
-        "Text": "Is in inventory",
+        "Text": "Is not in inventory",
         "Value1": "Loyal Spirit Orb",
-        "Value2": "50"
+        "Value2": "300"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 2
+        "Type": 1,
+        "Index": 3
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 4
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -1680,7 +1723,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -1697,6 +1740,11 @@
       "Blinding Light Fragments",
       "Ultimate Weapon Kit"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 40878
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
@@ -1730,7 +1778,11 @@
       "Ultimate Weapon Kit"
     ]
   },
-  "EnsureTries": 20,
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
   "AFK": true,
-  "DropDelay": 1000
+  "DropDelay": 1000,
+  "PacketDelay": 250
 }

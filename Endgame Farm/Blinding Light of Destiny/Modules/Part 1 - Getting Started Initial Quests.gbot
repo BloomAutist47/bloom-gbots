@@ -103,7 +103,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Main.gbot",
-        "BotFilePath": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Main.gbot"
+        "BotFilePath": "[Main Gbot Path]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -1531,7 +1531,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
         "Tag": "Misc",
         "Text": "Int is",
-        "Value1": "Use Public battleunder b",
+        "Value1": "Use Public /battleunderb",
         "Value2": "1"
       },
       {
@@ -1545,7 +1545,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
-        "Value1": "Use Public battleunder b",
+        "Value1": "Use Public /battleunderb",
         "Value2": "1"
       },
       {
@@ -1714,7 +1714,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
         "Tag": "Misc",
         "Text": "Int is",
-        "Value1": "Use Public battleunder b",
+        "Value1": "Use Public /battleunderb",
         "Value2": "1"
       },
       {
@@ -1728,7 +1728,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
-        "Value1": "Use Public battleunder b",
+        "Value1": "Use Public /battleunderb",
         "Value2": "1"
       },
       {
@@ -2044,343 +2044,6 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[247, 245, 111]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[247, 245, 111]SPIRIT ORB FARM"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[247, 245, 111]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "2084 - Spirit Orb"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bluu"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Check",
-        "Value2": "2084 - Spirit Orb - Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
-        "Tag": "Misc",
-        "Text": "Int is",
-        "Value1": "Use Public battleunder b",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "battleunderb",
-        "Room": "1",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
-        "Tag": "Misc",
-        "Text": "Int is not",
-        "Value1": "Use Public battleunder b",
-        "Value2": "1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "battleunderb",
-        "Room": "[Map No.]",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "2082",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2082
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "2083",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "2083",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2083
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "2084 - Spirit Orb - Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Undead Essence",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Undead Essence"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Bone Dust",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Bone Dust"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Enter",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Enter",
-        "Pad": "Spawn"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire",
-        "Type": 1
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Undead Essence",
-        "Value2": "100"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Bone Dust",
-        "Value2": "200"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Skill Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "2084 - Spirit Orb - Complete"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bluu"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1100
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2082
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest can be turned in",
-        "Value1": "2082",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Spirit Orb",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Spirit Orb"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2083
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestCompleted, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest can be turned in",
-        "Value1": "2083",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Index": 3
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
-        "Tag": "Item",
-        "Text": "Has dropped",
-        "Value1": "Spirit Orb",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Spirit Orb"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "2082",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2082
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "2083",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not in progress",
-        "Value1": "2083",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2084
-        }
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is not in inventory",
-        "Value1": "Spirit Orb",
-        "Value2": "100"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "2084 - Spirit Orb - Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "2084 - Check"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": " "
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
@@ -2427,8 +2090,8 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
     "$values": []
   },
-  "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Author": "Bloom",
+  "Description": "H4sIAAAAAAAEAM1UTW/cNhC9G/B/GCCHAkWqktoPxzZ6qO2kMNCmQbxtUYQ5UNJIYpYiVZLaRWDsf8+Q0rqbjevk2D0syTdv3gyfBrwXLtRcSONV+iv7hueLXFRY10wYO6jSdr0MEdDSNHw2y/n+UGM63ovamhAKTRsmar9V3ou6d//koi5b6TwGBtdSq8Kpy93u9ORelFZbRxlwKRxWnOeicYhm/kIUekC+ZAnPF4sRj5sYoPXxAM9fjAE2nwK0SRlsngJshPnZcoTn7DI18r1o0KCTwTp4q8o2SgBnGcv4OZvzXWR0nQztGye6Svn+Bsmubutkf2sqNIHP5wx2YqNwu1amWoih5OlUrH3PY3ohy3Xj7GAqiBV920eUFmV8oDMdvYFaab362CNV9Btgo00Hsevo2BjMF8vFeX72BeWKCh3QvtR4ZcvB/1fwSqt+jN2LXpUhNklr72y/E9sOgyQWMrrDLv1OT05PRC9dJbaqKoOmrfA6zo7X3aADFyU5lQYiz0WaHTabwTuCc7h7uVrdvv7lLnLgfZQhsbKewbVG6WCFXf8nrQTN4RncNsY6hNAqTwib6FoZpOMCiKlkoRF+kz28tlmqcAHny7Pl2YP0Ae1uTdeloZx4VzZ4IR7Ah13WFDY85LODJu8wwB8e4c1QaFXCj4UMQSN9YHTFJMqfoBssna0G06A1T9Gd3dg1ws3glGngFU1XWp1sOho8f5S6F+CTxTcvVz/f/rp3mJB/rRDFsWcpXjC4mMKwB95a2yWOGboCHX0DGegPgbyBLRkFH6wyj0sf+pzEYdVOKBAM2pYyKGsy+NsOUEoD9FqQK+lDQ7AgoVJ1jY5uC34SA0U0SfZ8tMN3NBSDj6YcMuOTI8tAzW5VaD8Pael9Br+bEgErFbB6HnWgsmDoPgaxinW93IxNPIcPgw/gBrO/c3bk9jcNw0bSkzOlBFnAD+QRIRfA4Cf4K9oxeEwV3k0j/B5cNH40PXsslR+m9mPtmPPV/h6Zvv9Hf9827l/vNX7JVHQS3LYYX7imDVFv0aKs4hB9bsRTNzgSzEQx0Qt2/DzQqwifABnYej9TBwAA",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []

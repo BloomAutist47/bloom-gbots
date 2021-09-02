@@ -31,7 +31,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
         "Map": "doomvaultb",
-        "Room": "94747",
+        "Room": "96767",
         "Cell": "r26",
         "Pad": "Left"
       },
@@ -106,7 +106,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -120,7 +120,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Twig",
-    "iPort": 31922
+    "iPort": 24506
   },
   "SkillDelay": 500,
   "EnablePickup": true,
@@ -144,6 +144,10 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "EnsureTries": 20,
-  "DropDelay": 1000
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "DropDelay": 1000,
+  "PacketDelay": 250
 }

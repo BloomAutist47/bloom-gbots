@@ -94,6 +94,18 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "battleon",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "Main.gbot",
+        "BotFilePath": "[Main Gbot Path]"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
         "Tag": "Item",
         "Text": "Is in inventory",
@@ -177,6 +189,14 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Class Equip"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1600
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%getQuests%74470%2091%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -1751,8 +1771,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2131,
-          "IsInProgress": true
+          "QuestID": 2131
         }
       },
       {
@@ -1819,8 +1838,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2131,
-          "IsInProgress": true
+          "QuestID": 2131
         }
       },
       {
@@ -2255,8 +2273,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2105,
-          "IsInProgress": true
+          "QuestID": 2105
         }
       },
       {
@@ -2377,8 +2394,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2105,
-          "IsInProgress": true
+          "QuestID": 2105
         }
       },
       {
@@ -2447,7 +2463,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
         "Tag": "Misc",
         "Text": "Int is",
-        "Value1": "Use Public battleunder b",
+        "Value1": "Use Public /battleunderb",
         "Value2": "1"
       },
       {
@@ -2461,7 +2477,7 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
-        "Value1": "Use Public battleunder b",
+        "Value1": "Use Public /battleunderb",
         "Value2": "1"
       },
       {
@@ -2724,6 +2740,17 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
         "Cell": "Blank",
         "Pad": "Bluu"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "2091",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Stop"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
@@ -3005,6 +3032,59 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]STOP FOR NOW"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]This bot uses Gold for spamming"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]BLoD. That means only broadsword"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]will work. Run this bot tommorow."
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "Stop"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "yulgar",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
+        "Map": "yulgar",
+        "Room": "1e99",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdStop, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": "[250,250,250]Congratulations!"
       },
       {
@@ -3067,8 +3147,8 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twig",
-    "iPort": 47833
+    "sName": "Twilly",
+    "iPort": 40457
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,

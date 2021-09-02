@@ -76,6 +76,9 @@
         "Name": "Start"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
@@ -91,7 +94,16 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "battleon",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "Main.gbot",
+        "BotFilePath": "[Main Gbot Path]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdChange, Grimoire",
@@ -2925,8 +2937,8 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.Quest, Grimoire]], mscorlib",
     "$values": []
   },
-  "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Author": "Bloom",
+  "Description": "H4sIAAAAAAAEAM1UTW/cNhC9G/B/GCCHAkWqktoPxzZ6qO2kMNCmQbxtUYQ5UNJIYpYiVZLaRWDsf8+Q0rqbjevk2D0syTdv3gyfBrwXLtRcSONV+iv7hueLXFRY10wYO6jSdr0MEdDSNHw2y/n+UGM63ovamhAKTRsmar9V3ou6d//koi5b6TwGBtdSq8Kpy93u9ORelFZbRxlwKRxWnOeicYhm/kIUekC+ZAnPF4sRj5sYoPXxAM9fjAE2nwK0SRlsngJshPnZcoTn7DI18r1o0KCTwTp4q8o2SgBnGcv4OZvzXWR0nQztGye6Svn+Bsmubutkf2sqNIHP5wx2YqNwu1amWoih5OlUrH3PY3ohy3Xj7GAqiBV920eUFmV8oDMdvYFaab362CNV9Btgo00Hsevo2BjMF8vFeX72BeWKCh3QvtR4ZcvB/1fwSqt+jN2LXpUhNklr72y/E9sOgyQWMrrDLv1OT05PRC9dJbaqKoOmrfA6zo7X3aADFyU5lQYiz0WaHTabwTuCc7h7uVrdvv7lLnLgfZQhsbKewbVG6WCFXf8nrQTN4RncNsY6hNAqTwib6FoZpOMCiKlkoRF+kz28tlmqcAHny7Pl2YP0Ae1uTdeloZx4VzZ4IR7Ah13WFDY85LODJu8wwB8e4c1QaFXCj4UMQSN9YHTFJMqfoBssna0G06A1T9Gd3dg1ws3glGngFU1XWp1sOho8f5S6F+CTxTcvVz/f/rp3mJB/rRDFsWcpXjC4mMKwB95a2yWOGboCHX0DGegPgbyBLRkFH6wyj0sf+pzEYdVOKBAM2pYyKGsy+NsOUEoD9FqQK+lDQ7AgoVJ1jY5uC34SA0U0SfZ8tMN3NBSDj6YcMuOTI8tAzW5VaD8Pael9Br+bEgErFbB6HnWgsmDoPgaxinW93IxNPIcPgw/gBrO/c3bk9jcNw0bSkzOlBFnAD+QRIRfA4Cf4K9oxeEwV3k0j/B5cNH40PXsslR+m9mPtmPPV/h6Zvv9Hf9827l/vNX7JVHQS3LYYX7imDVFv0aKs4hB9bsRTNzgSzEQx0Qt2/DzQqwifABnYej9TBwAA",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -2939,11 +2951,6 @@
       "Undead Essence",
       "Bone Dust"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 25223
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,

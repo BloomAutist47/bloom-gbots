@@ -118,7 +118,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "arcangrove-1e99",
+        "Map": "arcangrove-94747",
         "Cell": "Enter",
         "Pad": "Spawn"
       },
@@ -282,7 +282,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
-        "Map": "yulgar-1e99",
+        "Map": "yulgar-94747",
         "Cell": "Enter",
         "Pad": "Spawn"
       },

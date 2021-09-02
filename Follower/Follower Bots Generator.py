@@ -10,7 +10,7 @@ os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # 4. Run
 
 REPLACE_CODE = "<Target Player Name>"
-FOLLOWER_BOT = "Bloom_DeluxeFollower_v4_rev.gbot"
+FOLLOWER_BOT = "Bloom_DeluxeFollower_v3_rev.gbot"
 FOLLOWERS = [
 	"ACrolous",
 	"Kyrea",
@@ -27,15 +27,6 @@ FOLLOWERS = [
 ]
 
 # edit this aabove.
-
-
-
-
-
-
-
-
-
 
 # Don't think about this one
 f = open(f"{FOLLOWER_BOT}", "r")

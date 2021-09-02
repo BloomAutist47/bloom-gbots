@@ -91,7 +91,7 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Map No.",
-        "Value2": "94747"
+        "Value2": "96767"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -101,12 +101,28 @@
         "Value2": "Bots\\Skillset\\Skillset.gbot"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Main Gbot Path",
+        "Value2": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Main.gbot"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
         "Text": " "
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Public battleunder b"
+        "Int": "Use Public /battleunderb"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Use Public /necrodungeon"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Use Provoke During Finding Fragments",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -369,6 +385,13 @@
         "Value2": "*"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Main Gbot Path",
+        "Value2": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Main.gbot"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Debug Mode"
       },
@@ -383,6 +406,15 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Class Equip"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Check Class (1) Check Skill (2)"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "Skillset.gbot",
+        "BotFilePath": "Bots\\Skillset\\Skillset.gbot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -637,7 +669,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -761,7 +793,7 @@
   "BotDelay": 50,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
-  "HidePlayers": true,
+  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
@@ -775,6 +807,10 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "EnsureTries": 20,
-  "DropDelay": 1000
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "DropDelay": 1000,
+  "PacketDelay": 250
 }

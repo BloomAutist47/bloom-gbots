@@ -73,8 +73,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Yulgar Safespot - 1 (Yes) or 0 (No)",
-        "Value": 1
+        "Int": "Yulgar Safespot - 1 (Yes) or 0 (No)"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -250,16 +249,11 @@
         "Label": "Teleport"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerIsInMyCell, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdPlayerIsNotInMyCell, Grimoire",
         "Tag": "Player",
-        "Text": "Player is in my cell",
+        "Text": "Player is not in my cell",
         "Value1": "[Player]",
         "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
-        "Type": 1,
-        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -289,22 +283,18 @@
         "Name": "Teleport"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
-        "Tag": "Map",
-        "Text": "Cell is not",
-        "Value1": "Blank",
-        "Value2": ""
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Bloom"
+        "Cell": "Enter",
+        "Pad": "Spawn"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Enter",
         "Value2": ""
       },
       {
@@ -451,7 +441,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -463,7 +453,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Twig",
-    "iPort": 39194
+    "iPort": 37513
   },
   "ExitCombatBeforeRest": true,
   "EnablePickup": true,
@@ -486,6 +476,10 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "EnsureTries": 20,
-  "DropDelay": 1000
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "DropDelay": 1000,
+  "PacketDelay": 250
 }
