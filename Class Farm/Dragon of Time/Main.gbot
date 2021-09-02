@@ -658,7 +658,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%123667%7716%7717%7718%7719%7720%7721%7722%7723%4616%899%7650%5679%"
+        "Packet": "%xt%zm%getQuests%123667%7716%7717%7718%7719%7720%7721%7722%7723%4616%899%7650%5679%6286%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -4702,12 +4702,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Class Equip",
-        "Value": 2
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Class Check"
+        "Int": "Use Class Check",
+        "Value": 1
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -4993,6 +4989,11 @@
         "Value2": "Spawn"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 2
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Kill Function - Inv"
       },
@@ -5069,6 +5070,11 @@
         "Text": "Update Temporary Variable",
         "Value1": "Pad",
         "Value2": "Left"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -5159,6 +5165,11 @@
         "Value2": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 1
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Kill Function - Inv"
       },
@@ -5221,6 +5232,30 @@
         "R": 220,
         "G": 220,
         "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is available",
+        "Value1": "6286",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "Storyline - Guardian Tree (Bloom).gbot",
+        "BotFilePath": "Bots\\Class Farm\\Dragon of Time\\Modules\\Storyline - Guardian Tree (Bloom).gbot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "6286",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "Storyline - WhiteHole (Jex).gbot",
+        "BotFilePath": "Bots\\Class Farm\\Dragon of Time\\Modules\\Storyline - WhiteHole (Jex).gbot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -5488,7 +5523,7 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
+    "sName": "Safiria",
     "iPort": 37628
   },
   "SkillDelay": 500,
