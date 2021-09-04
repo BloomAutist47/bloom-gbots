@@ -534,6 +534,17 @@
         "Pad": "Left"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "orcpath",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
@@ -595,6 +606,17 @@
         "Room": "[Map No.]",
         "Cell": "r5",
         "Pad": "Right"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is not",
+        "Value1": "sandport",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
+        "Index": 2
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
@@ -689,7 +711,8 @@
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 7496,
-        "Text": "7496"
+        "Text": "7496",
+        "CanComplete": true
       }
     ]
   },
@@ -717,6 +740,7 @@
   "BotDelay": 500,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "LagKiller": true,
   "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
