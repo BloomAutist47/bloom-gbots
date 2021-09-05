@@ -116,12 +116,21 @@
         "Int": "Use Public /battleunderb"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "/necrodungeon (1) or /casttleundead (2) for Fragments",
+        "Value": 2
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Use Public /necrodungeon"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Provoke During Finding Fragments",
+        "Int": "Use Provoke in Fragments",
         "Value": 1
       },
       {
@@ -500,18 +509,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
         "Tag": "Quest",
         "Text": "Quest is not available",
-        "Value1": "2059",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
-        "BotFileName": "Prereq - Bloom_NecroDungeon_Storyline.gbot",
-        "BotFilePath": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Modules\\Prereq - Bloom_NecroDungeon_Storyline.gbot"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not available",
         "Value1": "939",
         "Value2": ""
       },
@@ -519,6 +516,29 @@
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Prereq - Weeb-Bloom_BattleUnderA_to_BattleUnderC_Questline.gbot",
         "BotFilePath": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Modules\\Prereq - Weeb-Bloom_BattleUnderA_to_BattleUnderC_Questline.gbot"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "/necrodungeon (1) or /casttleundead (2) for Fragments",
+        "Value2": "2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "m-real"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "2059",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "Prereq - Bloom_NecroDungeon_Storyline.gbot",
+        "BotFilePath": "Bots\\Endgame Farm\\Blinding Light of Destiny\\Modules\\Prereq - Bloom_NecroDungeon_Storyline.gbot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
@@ -785,6 +805,11 @@
       " ",
       " "
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588
   },
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,

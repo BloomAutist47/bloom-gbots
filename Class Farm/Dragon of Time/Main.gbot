@@ -248,6 +248,10 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Use Army in Whitehole Storyline"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Use Army in Doomwood III Storyline"
       },
       {
@@ -5520,11 +5524,6 @@
       "",
       ""
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
-    "iPort": 37628
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,

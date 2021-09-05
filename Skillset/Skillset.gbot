@@ -96,14 +96,14 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Farming Class",
-        "Value2": "Chaos Slayer Mystic"
+        "Value2": "Dark Lord"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Soloing Class",
-        "Value2": "StoneCrusher"
+        "Value2": "TimeKeeper"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -1662,7 +1662,7 @@
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
     "sName": "Twilly",
-    "iPort": 48226
+    "iPort": 5588
   },
   "EnablePickup": true,
   "EnableRejection": true,
