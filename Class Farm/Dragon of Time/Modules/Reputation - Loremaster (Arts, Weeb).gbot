@@ -265,6 +265,18 @@
         "Name": "Skill Check"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Enter",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Enter",
+        "Pad": "Spawn"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Check Class (1) Check Skill (2)",
         "Value": 2
