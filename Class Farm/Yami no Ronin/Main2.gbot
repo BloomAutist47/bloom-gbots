@@ -119,14 +119,14 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Main Gbot Path",
-        "Value2": "Bots\\Class Farm\\Yami no Ronin\\Main.gbot"
+        "Value2": "Bots\\Class Farm\\Yami no Ronin\\Main2.gbot"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "DagePvP Join Packet",
-        "Value2": "%xt%zm%cmd%1%tfer%PLAYERNAME%dagepvp-96767%"
+        "Value2": "%xt%zm%cmd%1%tfer%Luprehia%dagepvp-96767%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -2970,7 +2970,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7410
+          "QuestID": 7410,
+          "IsInProgress": true
         }
       },
       {
@@ -3248,7 +3249,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7410
+          "QuestID": 7410,
+          "IsInProgress": true
         }
       },
       {
@@ -5223,7 +5225,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7410
+          "QuestID": 7410,
+          "IsInProgress": true
         }
       },
       {

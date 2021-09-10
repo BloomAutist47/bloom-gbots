@@ -405,7 +405,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2180
+          "QuestID": 2180,
+          "IsInProgress": true
         }
       },
       {
@@ -497,7 +498,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2180
+          "QuestID": 2180,
+          "IsInProgress": true
         }
       },
       {
@@ -940,7 +942,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2178
+          "QuestID": 2178,
+          "IsInProgress": true
         }
       },
       {
@@ -963,11 +966,11 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Join - castleundead"
+        "Label": "Join - necrodungeon"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Join - necrodungeon"
+        "Label": "Join - castleundead"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -1210,7 +1213,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2178
+          "QuestID": 2178,
+          "IsInProgress": true
         }
       },
       {
@@ -1869,6 +1873,11 @@
       "Blinding Light Fragments",
       "Ultimate Weapon Kit"
     ]
+  },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
