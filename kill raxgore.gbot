@@ -5,7 +5,7 @@
     "$values": [
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 300
+        "Delay": "300"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotInProgress, Grimoire",
@@ -119,13 +119,14 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 65416
+    "sName": "Twig",
+    "iPort": 5588
   },
   "SkillDelay": 500,
   "EnablePickup": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
+  "BotDelay": 50,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,
