@@ -18,7 +18,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Nthmrst"
       },
       {
@@ -218,7 +218,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Nthmrst"
       },
       {
@@ -616,7 +616,7 @@
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
         "Map": "battleon",
         "Room": "1e99",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Nthrmst"
       },
       {

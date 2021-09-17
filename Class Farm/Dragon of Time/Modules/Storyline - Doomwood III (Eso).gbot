@@ -4,240 +4,172 @@
     "$type": "System.Collections.Generic.List`1[[Grimoire.Botting.IBotCommand, Grimoire]], mscorlib",
     "$values": [
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdClearTemp, Grimoire"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Edit"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "BOT BY ESO:",
-        "Alpha": 255,
-        "R": 220
+        "Label": "Start"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[50, 50, 100]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-        "Alpha": 255,
-        "R": 150
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "- DoomWood III - ",
-        "Alpha": 255,
-        "R": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-        "Alpha": 255,
-        "R": 150
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[50, 50, 100]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "$$$$$$ PREREQUISITES: $$$$$$",
-        "Alpha": 180,
-        "R": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------",
-        "Alpha": 255,
-        "R": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "MUST HAVE THE SKILLSET BOT LIKE  THIS:",
-        "Alpha": 200,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Open README.txt if unclear)",
-        "Alpha": 150,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "\\Bots\\Skilllset\\SkillsetV2.gbot",
-        "Alpha": 255,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "Edit the skillsetV2.gbot if necessary",
-        "Alpha": 255,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "-----------------------------------------------------------------------------------------------------------------------------------------------------------------",
-        "Alpha": 255,
-        "R": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "$$$$$$ :PREREQUISITES $$$$$$",
-        "Alpha": 180,
-        "R": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "Text": "[133, 171, 255]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[50, 50, 100]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[133, 171, 255]Doomwood III"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[133, 171, 255]STORYLINE BOAT"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[210,210,210]by Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " sdfsdf"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[100,100,100]Join Discord"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250,250,250]discord.io/AQWBots"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " sdfsdf"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[133, 171, 255]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[250, 250, 250]This is a submodule"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": " "
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
         "Text": "(Write Text Here)",
         "Alpha": 1,
         "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "OPTIONAL EDITING:",
-        "Alpha": 255,
         "G": 220,
         "B": 220
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "Edit"
+        "Name": "Start"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
+        "Tag": "Map",
+        "Text": "Cell is not",
+        "Value1": "Wait",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Bloom"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
+        "Tag": "Map",
+        "Text": "Map is",
+        "Value1": "battleon",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
+        "BotFileName": "Main.gbot",
+        "BotFilePath": "[Main Gbot Path]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Room No.",
-        "Value2": "41592"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "FARM ROTATION COUNT",
-        "Value": 20
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "SOLO ROTATION COUNT",
-        "Value": 30
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "Skillset Information:",
-        "Alpha": 255,
-        "G": 220,
-        "B": 220
+        "Value1": "Check",
+        "Value2": "null"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "FILEPATH",
-        "Value2": "Bots\\Skillset\\SkillsetV2.gbot"
+        "Value1": "Return",
+        "Value2": "null"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Skill Counter",
+        "Value2": "12"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Temporary Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Complete"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
+        "Int": "Class Equip",
+        "Value": 1
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Eso"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
+        "Packet": "%xt%zm%getQuests%2%7600%7603%7609%7615%7637%7650%"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "m"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -249,7 +181,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
-        "Text": "[50, 50, 100]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
+        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -260,30 +192,79 @@
         "B": 220
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "No more editng. Enjoy",
-        "Alpha": 150,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
+        "Name": "m"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "____________________________________________________________",
-        "Alpha": 255,
-        "R": 220
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
-        "Text": "(Write Text Here)",
-        "Alpha": 1,
-        "R": 220,
-        "G": 220,
-        "B": 220
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7603",
+        "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "check_imp_quests"
+        "Label": "settings1"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7609",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "settings2"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7615",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "settings3"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7637",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "settings4"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
+        "Tag": "Quest",
+        "Text": "Quest is not available",
+        "Value1": "7650",
+        "Value2": ""
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "settings5"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
+        "Label": "Done"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
+        "Text": "(Write Text Here)",
+        "Alpha": 1,
+        "R": 220,
+        "G": 220,
+        "B": 220
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
+        "Text": "[39,39,39]▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -305,7 +286,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Skillset file",
-        "BotFilePath": "[FILEPATH]"
+        "BotFilePath": "[Skillset]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -331,7 +312,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLoadBot, Grimoire",
         "BotFileName": "Skillset file",
-        "BotFilePath": "[FILEPATH]"
+        "BotFilePath": "[Skillset]"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -348,19 +329,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "check_imp_quests"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Eso"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdPacket, Grimoire",
-        "Packet": "%xt%zm%getQuests%2%7600%7603%7609%7615%7637%7650%"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -477,13 +445,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
       },
@@ -523,7 +484,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
         "Map": "techfortress",
-        "Room": "[Room No.]",
+        "Room": "[Map No.]",
         "Cell": "Enter",
         "Pad": "Spawn"
       },
@@ -542,19 +503,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -815,8 +776,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7638,
-          "IsInProgress": true
+          "QuestID": 7638
         }
       },
       {
@@ -1152,13 +1112,6 @@
         "Name": "7653"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -1210,13 +1163,6 @@
         "Label": "SKILL CHECK"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "completePos",
         "Value": 11
@@ -1236,13 +1182,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7646"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
@@ -1294,13 +1233,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "SKILL CHECK"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -1496,13 +1428,6 @@
         "Name": "7643"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -1554,13 +1479,6 @@
         "Label": "SKILL CHECK"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "completePos",
         "Value": 7
@@ -1580,13 +1498,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7642"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -1652,13 +1563,6 @@
         "Text": "Update Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -1924,13 +1828,6 @@
         "Name": "7638"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -1980,13 +1877,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "SKILL CHECK"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -2085,19 +1975,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -2468,8 +2358,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7638,
-          "IsInProgress": true
+          "QuestID": 7638
         }
       },
       {
@@ -2886,13 +2775,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
         "Value1": "id",
         "Value2": "5"
       },
@@ -2939,7 +2821,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
         "Map": "stonewooddeep",
-        "Room": "[Room No.]",
+        "Room": "[Map No.]",
         "Cell": "Enter",
         "Pad": "Spawn"
       },
@@ -2958,19 +2840,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -3696,13 +3578,6 @@
         "Name": "7636"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -3752,13 +3627,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "SKILL CHECK"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -3898,13 +3766,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "7633"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
@@ -4669,13 +4530,6 @@
         "Name": "7624"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -4725,13 +4579,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "SKILL CHECK"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -4818,19 +4665,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -5521,13 +5368,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
       },
@@ -5567,7 +5407,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
         "Map": "techdungeon",
-        "Room": "[Room No.]",
+        "Room": "[Map No.]",
         "Cell": "Enter",
         "Pad": "Spawn"
       },
@@ -5586,19 +5426,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -5984,13 +5824,6 @@
         "Name": "7615"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -6040,13 +5873,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "SKILL CHECK"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -6459,13 +6285,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "Necromech"
       },
@@ -6528,13 +6347,6 @@
         "Value2": "*"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "completePos",
         "Value": 1
@@ -6559,19 +6371,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -6968,13 +6780,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
       },
@@ -7014,7 +6819,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
         "Map": "stonewood",
-        "Room": "[Room No.]",
+        "Room": "[Map No.]",
         "Cell": "Enter",
         "Pad": "Spawn"
       },
@@ -7033,19 +6838,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -7878,19 +7683,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -8246,13 +8051,6 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Set Temporary Variable",
         "Value1": "Target Monster",
         "Value2": "*"
       },
@@ -8292,7 +8090,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
         "Map": "thorngarde",
-        "Room": "[Room No.]",
+        "Room": "[Map No.]",
         "Cell": "Enter",
         "Pad": "Spawn"
       },
@@ -8311,19 +8109,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -8373,8 +8171,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7600,
-          "IsInProgress": true
+          "QuestID": 7600
         }
       },
       {
@@ -8397,8 +8194,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7599,
-          "IsInProgress": true
+          "QuestID": 7599
         }
       },
       {
@@ -8421,8 +8217,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7598,
-          "IsInProgress": true
+          "QuestID": 7598
         }
       },
       {
@@ -8445,8 +8240,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7597,
-          "IsInProgress": true
+          "QuestID": 7597
         }
       },
       {
@@ -8469,8 +8263,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7596,
-          "IsInProgress": true
+          "QuestID": 7596
         }
       },
       {
@@ -8493,8 +8286,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7595,
-          "IsInProgress": true
+          "QuestID": 7595
         }
       },
       {
@@ -8517,8 +8309,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7594,
-          "IsInProgress": true
+          "QuestID": 7594
         }
       },
       {
@@ -8541,8 +8332,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7593,
-          "IsInProgress": true
+          "QuestID": 7593
         }
       },
       {
@@ -8565,8 +8355,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7592,
-          "IsInProgress": true
+          "QuestID": 7592
         }
       },
       {
@@ -8589,8 +8378,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7591,
-          "IsInProgress": true
+          "QuestID": 7591
         }
       },
       {
@@ -8613,8 +8401,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7590,
-          "IsInProgress": true
+          "QuestID": 7590
         }
       },
       {
@@ -8637,8 +8424,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7589,
-          "IsInProgress": true
+          "QuestID": 7589
         }
       },
       {
@@ -8969,13 +8755,6 @@
         "Name": "7600"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "SOLO ROTATION COUNT"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIsNot, Grimoire",
         "Tag": "Misc",
         "Text": "Int is not",
@@ -9025,13 +8804,6 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "SKILL CHECK"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
-        "Tag": "Misc",
-        "Text": "Update Temporary Variable",
-        "Value1": "Skill Counter",
-        "Value2": "FARM ROTATION COUNT"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
@@ -10047,19 +9819,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Eso"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -10093,8 +9865,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7600,
-          "IsInProgress": true
+          "QuestID": 7600
         }
       },
       {
@@ -10135,8 +9906,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7599,
-          "IsInProgress": true
+          "QuestID": 7599
         }
       },
       {
@@ -10173,8 +9943,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7598,
-          "IsInProgress": true
+          "QuestID": 7598
         }
       },
       {
@@ -10211,8 +9980,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7597,
-          "IsInProgress": true
+          "QuestID": 7597
         }
       },
       {
@@ -10249,8 +10017,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7596,
-          "IsInProgress": true
+          "QuestID": 7596
         }
       },
       {
@@ -10287,8 +10054,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7595,
-          "IsInProgress": true
+          "QuestID": 7595
         }
       },
       {
@@ -10325,8 +10091,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7594,
-          "IsInProgress": true
+          "QuestID": 7594
         }
       },
       {
@@ -10363,8 +10128,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7593,
-          "IsInProgress": true
+          "QuestID": 7593
         }
       },
       {
@@ -10401,8 +10165,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7592,
-          "IsInProgress": true
+          "QuestID": 7592
         }
       },
       {
@@ -10439,8 +10202,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7591,
-          "IsInProgress": true
+          "QuestID": 7591
         }
       },
       {
@@ -10477,8 +10239,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7590,
-          "IsInProgress": true
+          "QuestID": 7590
         }
       },
       {
@@ -10515,8 +10276,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7589,
-          "IsInProgress": true
+          "QuestID": 7589
         }
       },
       {
@@ -10544,66 +10304,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
-        "Name": "Finish"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 500
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not available",
-        "Value1": "7603",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "settings1"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not available",
-        "Value1": "7609",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "settings2"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not available",
-        "Value1": "7615",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "settings3"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not available",
-        "Value1": "7637",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "settings4"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
-        "Tag": "Quest",
-        "Text": "Quest is not available",
-        "Value1": "7650",
-        "Value2": ""
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "settings5"
+        "Name": "Done"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
@@ -10635,8 +10336,7 @@
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
         "QuestID": 7638,
-        "Text": "7638",
-        "IsInProgress": true
+        "Text": "7638"
       },
       {
         "$type": "Grimoire.Game.Data.Quest, Grimoire",
@@ -10646,7 +10346,7 @@
     ]
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -10654,11 +10354,6 @@
   "Drops": {
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Safiria",
-    "iPort": 57400
   },
   "SkillDelay": 500,
   "EnablePickup": true,
@@ -10682,6 +10377,10 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "EnsureTries": 20,
-  "DropDelay": 1000
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "DropDelay": 1000,
+  "PacketDelay": 250
 }

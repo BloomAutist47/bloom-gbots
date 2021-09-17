@@ -128,19 +128,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -319,7 +319,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
@@ -339,7 +339,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "RED1KING"
       },
       {
@@ -459,7 +459,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
@@ -472,7 +472,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "watchtower",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
@@ -501,19 +501,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -658,8 +658,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -671,7 +671,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "dreadrock",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Right"
       },
       {
@@ -689,19 +689,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -732,19 +732,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -777,8 +777,8 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
@@ -790,7 +790,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "deadmoor",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
@@ -819,19 +819,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -958,7 +958,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Right"
       },
       {
@@ -971,7 +971,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "citadelruins",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Bottom"
       },
       {
@@ -1000,19 +1000,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -1048,7 +1048,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
@@ -1185,19 +1185,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Right"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -1271,7 +1271,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Bottom"
       },
       {
@@ -1284,7 +1284,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "ravenscar",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Spawn"
       },
       {
@@ -1302,19 +1302,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -1357,19 +1357,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -1415,19 +1415,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
-        "Pad": "Blank"
+        "Cell": "Wait",
+        "Pad": "Wait"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
@@ -1466,7 +1466,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Pad"
       },
       {
@@ -1538,7 +1538,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Pad"
       },
       {
@@ -1551,7 +1551,7 @@
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin, Grimoire",
         "Map": "greenguardwest",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Spawn"
       },
       {
@@ -1589,7 +1589,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
@@ -1706,19 +1706,19 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Blank",
+        "Value1": "Wait",
         "Value2": ""
       },
       {

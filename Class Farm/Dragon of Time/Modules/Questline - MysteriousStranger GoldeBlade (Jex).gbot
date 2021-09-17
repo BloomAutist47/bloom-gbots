@@ -13,7 +13,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -253,7 +253,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -472,7 +472,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -607,7 +607,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -732,7 +732,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -852,7 +852,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -998,7 +998,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -1181,7 +1181,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -1417,7 +1417,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
@@ -1525,7 +1525,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Blank",
+        "Cell": "Wait",
         "Pad": "Jex"
       },
       {
