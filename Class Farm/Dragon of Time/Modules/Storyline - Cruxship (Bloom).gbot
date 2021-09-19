@@ -202,6 +202,13 @@
         "Value2": "12"
       },
       {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
+      },
+      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
         "Int": "Complete"
       },
@@ -1899,8 +1906,11 @@
         "Pad": "Right"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "Nokris Plaguebringer"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Variable",
+        "Value1": "Target Monster",
+        "Value2": "Nokris Plaguebringer"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotCompleted, Grimoire",
@@ -1969,6 +1979,13 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -2267,8 +2284,11 @@
         "Pad": "Bottom"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Combat.CmdKill, Grimoire",
-        "Monster": "Treasure Hunter Captain"
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Update Variable",
+        "Value1": "Target Monster",
+        "Value2": "Treasure Hunter Captain"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
@@ -2303,6 +2323,13 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "4611 - Captain Defeated"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
+        "Tag": "Misc",
+        "Text": "Set Variable",
+        "Value1": "Target Monster",
+        "Value2": "*"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
@@ -2972,10 +2999,16 @@
       "Mummy Defeated"
     ]
   },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twig",
+    "iPort": 5588
+  },
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 5000,
+  "BotDelay": 50,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "LagKiller": true,

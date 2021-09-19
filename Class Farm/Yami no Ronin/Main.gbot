@@ -561,7 +561,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -1386,7 +1386,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bluu"
       },
       {
@@ -1514,7 +1514,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bluu"
       },
       {
@@ -1655,12 +1655,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -1753,12 +1753,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -1930,12 +1930,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -2247,12 +2247,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -2313,12 +2313,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -2408,12 +2408,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -3053,12 +3053,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -3345,12 +3345,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -4000,7 +4000,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -4151,7 +4151,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -4302,7 +4302,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -4453,7 +4453,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -4604,7 +4604,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -4816,7 +4816,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -4931,7 +4931,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -5001,7 +5001,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -5075,17 +5075,6 @@
         "Index": 2
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInInventory, Grimoire",
-        "Tag": "Item",
-        "Text": "Is in inventory",
-        "Value1": "Yami",
-        "Value2": "10"
-      },
-      {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Get - Yokai Sword Scroll"
-      },
-      {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
         "Label": "Kill Function - Inv"
       },
@@ -5153,7 +5142,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -5178,7 +5167,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7444
+          "QuestID": 7444,
+          "IsInProgress": true
         }
       },
       {
@@ -5336,12 +5326,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -5349,11 +5339,8 @@
         "Delay": 1500
       },
       {
-        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
-        "Quest": {
-          "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7410
-        }
+        "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest2, Grimoire",
+        "QuestID": "7444"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -5702,7 +5689,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -5785,7 +5772,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -5855,7 +5842,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -5953,12 +5940,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -6062,6 +6049,41 @@
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdLabel, Grimoire",
         "Name": "Obsidian Rock - Legion"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
+        "Cell": "Wait",
+        "Pad": "Spawn"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
+        "Delay": 1500
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
+        "Tag": "Item",
+        "Text": "Is in bank",
+        "Value1": "Legion Token",
+        "Value2": "*"
+      },
+      {
+        "$type": "Grimoire.Botting.Commands.Item.CmdBankTransfer, Grimoire",
+        "TransferFromBank": true,
+        "ItemName": "Legion Token"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -6190,7 +6212,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -6256,7 +6278,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -6345,7 +6367,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -6411,7 +6433,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -6458,7 +6480,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
-        "Label": "Folded Steel - Check"
+        "Label": "Kill Function - Inv"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank3, Grimoire",
@@ -6519,12 +6541,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -6715,12 +6737,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -6740,7 +6762,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdGetDrop, Grimoire",
-        "ItemName": "Folded Steel"
+        "ItemName": "Yokai Sword Scroll"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -6838,12 +6860,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -6902,7 +6924,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -6994,12 +7016,12 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "Wait",
+        "Value1": "Blank",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Bloom"
       },
       {
@@ -7014,7 +7036,7 @@
         "Tag": "Misc",
         "Text": "Update Temporary Variable",
         "Value1": "Target Quantity",
-        "Value2": "500"
+        "Value2": "600"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -7058,7 +7080,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "Wait",
+        "Cell": "Blank",
         "Pad": "Spawn"
       },
       {
@@ -7608,7 +7630,7 @@
   },
   "Server": {
     "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twig",
+    "sName": "Twilly",
     "iPort": 5588
   },
   "SkillDelay": 500,
@@ -7616,6 +7638,7 @@
   "EnableRejection": true,
   "AutoRelogin": true,
   "RelogDelay": 10000,
+  "BotDelay": 50,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,

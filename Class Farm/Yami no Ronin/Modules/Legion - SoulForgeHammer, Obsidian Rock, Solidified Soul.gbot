@@ -270,7 +270,8 @@
         "Pad": "Bloom"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
@@ -350,19 +351,18 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
-        "Delay": 1000
+        "Delay": 1500
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestAvailable, Grimoire",
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdQuestNotAvailable, Grimoire",
         "Tag": "Quest",
-        "Text": "Quest is available",
+        "Text": "Quest is not available",
         "Value1": "2744",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Member Farm",
-        "Value": 1
+        "Int": "Use Member Farm"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBlank2, Grimoire",
@@ -495,9 +495,11 @@
         "Label": "Farm Member"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "All (0) - Rock (1) - Soul (2)",
-        "Value": 2
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "All (0) - Rock (1) - Soul (2)",
+        "Value2": "2"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdIndex, Grimoire",
@@ -516,9 +518,11 @@
         "Label": "Farm Obsidian Rock"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "All (0) - Rock (1) - Soul (2)",
-        "Value": 1
+        "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
+        "Tag": "Misc",
+        "Text": "Int is",
+        "Value1": "All (0) - Rock (1) - Soul (2)",
+        "Value2": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1255,22 +1259,23 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2744
+          "QuestID": 2744,
+          "IsInProgress": true
         }
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Map is not",
-        "Value1": "temple",
+        "Value1": "hydra",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "temple",
+        "Map": "hydra",
         "Room": "[Map No.]",
-        "Cell": "r5",
-        "Pad": "Down"
+        "Cell": "Rune2",
+        "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -1360,13 +1365,13 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r5",
+        "Value1": "Rune2",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r5",
-        "Pad": "Down"
+        "Cell": "Rune2",
+        "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
@@ -1421,7 +1426,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2744
+          "QuestID": 2744,
+          "IsInProgress": true
         }
       },
       {
@@ -1462,7 +1468,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2744
+          "QuestID": 2744,
+          "IsInProgress": true
         }
       },
       {
@@ -1571,22 +1578,23 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2742
+          "QuestID": 2742,
+          "CanComplete": true
         }
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Map is not",
-        "Value1": "temple",
+        "Value1": "hydra",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdJoin2, Grimoire",
-        "Map": "temple",
+        "Map": "hydra",
         "Room": "[Map No.]",
-        "Cell": "r5",
-        "Pad": "Down"
+        "Cell": "Rune2",
+        "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdUpdateVar, Grimoire",
@@ -1676,13 +1684,13 @@
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdCellIsNot, Grimoire",
         "Tag": "Map",
         "Text": "Cell is not",
-        "Value1": "r5",
+        "Value1": "Rune2",
         "Value2": ""
       },
       {
         "$type": "Grimoire.Botting.Commands.Map.CmdMoveToCell, Grimoire",
-        "Cell": "r5",
-        "Pad": "Down"
+        "Cell": "Rune2",
+        "Pad": "Left"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdNotInTemp, Grimoire",
@@ -1726,7 +1734,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2742
+          "QuestID": 2742,
+          "CanComplete": true
         }
       },
       {
@@ -1763,7 +1772,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2742
+          "QuestID": 2742,
+          "CanComplete": true
         }
       },
       {
@@ -1838,7 +1848,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2743
+          "QuestID": 2743,
+          "IsInProgress": true
         }
       },
       {
@@ -1993,7 +2004,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2743
+          "QuestID": 2743,
+          "IsInProgress": true
         }
       },
       {
@@ -2030,7 +2042,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 2743
+          "QuestID": 2743,
+          "IsInProgress": true
         }
       },
       {
@@ -2143,7 +2156,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -2157,6 +2170,11 @@
       "SoulForge Hammer"
     ]
   },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twig",
+    "iPort": 5588
+  },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,
@@ -2166,7 +2184,6 @@
   "InfiniteAttackRange": true,
   "Untarget": true,
   "LagKiller": true,
-  "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {
@@ -2180,7 +2197,11 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "EnsureTries": 20,
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
   "AFK": true,
-  "DropDelay": 2222
+  "DropDelay": 2222,
+  "PacketDelay": 250
 }

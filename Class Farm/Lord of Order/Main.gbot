@@ -348,7 +348,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 200
+        "Delay": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdToggleProvoke, Grimoire"
@@ -1192,7 +1192,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 200
+        "Delay": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -1255,7 +1255,8 @@
         "ItemName": "Ravenscar's Truth"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -1378,7 +1379,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 200
+        "Delay": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
@@ -1429,7 +1430,8 @@
         "ItemName": "Lord of Order Bladed Wrap"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdClientMessage, Grimoire",
@@ -1645,7 +1647,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
-        "ShopId": 1221
+        "ShopId": "1221"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -1953,7 +1955,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
-        "ShopId": 614
+        "ShopId": "614"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -2117,7 +2119,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7157
+          "QuestID": 7157,
+          "IsInProgress": true
         }
       },
       {
@@ -2134,7 +2137,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 200
+        "Delay": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -2185,7 +2188,8 @@
         "ItemName": "Calico Cobby Crushed"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -2276,7 +2280,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7157
+          "QuestID": 7157,
+          "IsInProgress": true
         }
       },
       {
@@ -2301,7 +2306,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 200
+        "Delay": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdItemPickupable, Grimoire",
@@ -2352,7 +2357,8 @@
         "ItemName": "Lord of Order Wings + Wrap"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdClientMessage, Grimoire",
@@ -2952,7 +2958,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 200
+        "Delay": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -3003,7 +3009,8 @@
         "ItemName": "Purified Raindrop"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -3256,7 +3263,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
-        "ShopId": 1951
+        "ShopId": "1951"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -3778,7 +3785,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": 200
+        "Delay": "200"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdInBank, Grimoire",
@@ -3829,7 +3836,8 @@
         "ItemName": "Desolich's Skull"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "0"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdGotoLabel, Grimoire",
@@ -8820,7 +8828,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
-        "ShopId": 363
+        "ShopId": "363"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -9482,7 +9490,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -9599,6 +9607,11 @@
       " "
     ]
   },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588
+  },
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,
   "AutoRelogin": true,
@@ -9621,6 +9634,10 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "EnsureTries": 20,
-  "DropDelay": 1000
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
+  "DropDelay": 1000,
+  "PacketDelay": 250
 }

@@ -295,7 +295,8 @@
         "Pad": "Bloom"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
+        "Delay": "1"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
@@ -519,7 +520,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Item.CmdLoad, Grimoire",
-        "ShopId": 216
+        "ShopId": "216"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdDelay, Grimoire",
@@ -853,7 +854,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5755
+          "QuestID": 5755,
+          "IsInProgress": true
         }
       },
       {
@@ -1007,7 +1009,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5755
+          "QuestID": 5755,
+          "IsInProgress": true
         }
       },
       {
@@ -1061,7 +1064,8 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 5755
+          "QuestID": 5755,
+          "IsInProgress": true
         }
       },
       {
@@ -1093,7 +1097,7 @@
     "$values": []
   },
   "Author": "Author",
-  "Description": "Description (Write in RTF)",
+  "Description": "Description (Write in Rich Text Format)",
   "Boosts": {
     "$type": "System.Collections.Generic.List`1[[Grimoire.Game.Data.InventoryItem, Grimoire]], mscorlib",
     "$values": []
@@ -1106,6 +1110,11 @@
       "Legion Token"
     ]
   },
+  "Server": {
+    "$type": "Grimoire.Game.Data.Server, Grimoire",
+    "sName": "Twilly",
+    "iPort": 5588
+  },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,
   "EnableRejection": true,
@@ -1115,6 +1124,7 @@
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
   "Untarget": true,
+  "LagKiller": true,
   "HidePlayers": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
@@ -1129,7 +1139,11 @@
     "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
     "$values": []
   },
-  "EnsureTries": 20,
+  "Packets": {
+    "$type": "System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib",
+    "$values": []
+  },
   "AFK": true,
-  "DropDelay": 3000
+  "DropDelay": 3000,
+  "PacketDelay": 250
 }
