@@ -157,8 +157,7 @@
         "Name": "Start"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": "1"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdIntIs, Grimoire",
@@ -267,11 +266,6 @@
       "Zardman's StoneHammer",
       "SoulForge Hammer"
     ]
-  },
-  "Server": {
-    "$type": "Grimoire.Game.Data.Server, Grimoire",
-    "sName": "Twilly",
-    "iPort": 5588
   },
   "SkillDelay": 500,
   "ExitCombatBeforeRest": true,

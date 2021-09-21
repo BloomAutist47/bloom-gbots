@@ -166,8 +166,7 @@
         "Pad": "Bloom"
       },
       {
-        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire",
-        "Delay": "1"
+        "$type": "Grimoire.Botting.Commands.Misc.CmdBotDelay, Grimoire"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdMapIs, Grimoire",
@@ -621,8 +620,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7422,
-          "IsInProgress": true
+          "QuestID": 7422
         }
       },
       {
@@ -647,8 +645,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7423,
-          "IsInProgress": true
+          "QuestID": 7423
         }
       },
       {
@@ -673,8 +670,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7424,
-          "IsInProgress": true
+          "QuestID": 7424
         }
       },
       {
@@ -699,8 +695,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7426,
-          "IsInProgress": true
+          "QuestID": 7426
         }
       },
       {
@@ -952,8 +947,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7422,
-          "IsInProgress": true
+          "QuestID": 7422
         }
       },
       {
@@ -978,8 +972,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7423,
-          "IsInProgress": true
+          "QuestID": 7423
         }
       },
       {
@@ -1004,8 +997,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7424,
-          "IsInProgress": true
+          "QuestID": 7424
         }
       },
       {
@@ -1030,8 +1022,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7426,
-          "IsInProgress": true
+          "QuestID": 7426
         }
       },
       {
@@ -1158,9 +1149,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7421,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 7421
         }
       },
       {
@@ -1227,9 +1216,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7421,
-          "IsInProgress": true,
-          "CanComplete": true
+          "QuestID": 7421
         }
       },
       {
@@ -1300,8 +1287,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7422,
-          "IsInProgress": true
+          "QuestID": 7422
         }
       },
       {
@@ -1326,8 +1312,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7423,
-          "IsInProgress": true
+          "QuestID": 7423
         }
       },
       {
@@ -1352,8 +1337,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7424,
-          "IsInProgress": true
+          "QuestID": 7424
         }
       },
       {
@@ -1378,8 +1362,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7426,
-          "IsInProgress": true
+          "QuestID": 7426
         }
       },
       {
@@ -1454,8 +1437,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7422,
-          "IsInProgress": true
+          "QuestID": 7422
         }
       },
       {
@@ -1526,8 +1508,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7423,
-          "IsInProgress": true
+          "QuestID": 7423
         }
       },
       {
@@ -1552,8 +1533,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7424,
-          "IsInProgress": true
+          "QuestID": 7424
         }
       },
       {
@@ -1578,8 +1558,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7426,
-          "IsInProgress": true
+          "QuestID": 7426
         }
       },
       {
@@ -1654,8 +1633,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7423,
-          "IsInProgress": true
+          "QuestID": 7423
         }
       },
       {
@@ -1726,8 +1704,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7424,
-          "IsInProgress": true
+          "QuestID": 7424
         }
       },
       {
@@ -1752,8 +1729,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7426,
-          "IsInProgress": true
+          "QuestID": 7426
         }
       },
       {
@@ -1828,8 +1804,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7424,
-          "IsInProgress": true
+          "QuestID": 7424
         }
       },
       {
@@ -2046,8 +2021,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdAcceptQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7426,
-          "IsInProgress": true
+          "QuestID": 7426
         }
       },
       {
@@ -2122,8 +2096,7 @@
         "$type": "Grimoire.Botting.Commands.Quest.CmdCompleteQuest, Grimoire",
         "Quest": {
           "$type": "Grimoire.Game.Data.Quest, Grimoire",
-          "QuestID": 7426,
-          "IsInProgress": true
+          "QuestID": 7426
         }
       },
       {
@@ -2462,10 +2435,8 @@
   "EnablePickup": true,
   "EnableRejection": true,
   "RelogDelay": 5000,
-  "BotDelay": 50,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
-  "LagKiller": true,
   "SkipCutscenes": true,
   "WalkSpeed": 8,
   "NotifyUponDrop": {

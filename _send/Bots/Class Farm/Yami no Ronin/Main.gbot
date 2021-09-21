@@ -212,8 +212,7 @@
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.CmdInt, Grimoire",
-        "Int": "Use Army Sync",
-        "Value": 1
+        "Int": "Use Army Sync"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -7645,6 +7644,7 @@
   "BotDelay": 50,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "ProvokeMonsters": true,
   "Untarget": true,
   "LagKiller": true,
   "HidePlayers": true,

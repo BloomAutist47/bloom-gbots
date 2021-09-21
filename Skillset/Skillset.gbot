@@ -96,14 +96,14 @@
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Farming Class",
-        "Value2": "Dark Lord"
+        "Value2": "Legion Revenant"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
         "Tag": "Misc",
         "Text": "Set Temporary Variable",
         "Value1": "Soloing Class",
-        "Value2": "TimeKeeper"
+        "Value2": "Legion Revenant"
       },
       {
         "$type": "Grimoire.Botting.Commands.Misc.Statements.CmdSetVar, Grimoire",
@@ -1672,6 +1672,7 @@
   "RelogDelay": 5000,
   "SkipDelayIndexIf": true,
   "InfiniteAttackRange": true,
+  "ProvokeMonsters": true,
   "Untarget": true,
   "LagKiller": true,
   "SkipCutscenes": true,
